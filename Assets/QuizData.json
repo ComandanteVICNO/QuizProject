@@ -113,7 +113,7 @@
       ]
     },
     {
-      "categoryID": 1,
+      "categoryID": 2,
       "name": "Hostória",
       "backgroundImage": "backgroundImage2.png",
       "questions": [
@@ -169,7 +169,7 @@
       ]
     },
     {
-      "categoryID": 1,
+      "categoryID": 3,
       "name": "Portugues",
       "backgroundImage": "backgroundImage2.png",
       "questions": [
@@ -225,7 +225,7 @@
       ]
     },
     {
-      "categoryID": 1,
+      "categoryID": 4,
       "name": "Geografia",
       "backgroundImage": "backgroundImage2.png",
       "questions": [
@@ -281,7 +281,7 @@
       ]
     },
     {
-      "categoryID": 1,
+      "categoryID": 5,
       "name": "Fisica",
       "backgroundImage": "backgroundImage2.png",
       "questions": [
