@@ -1,116 +1,340 @@
 {
-    "categories":[
+  "categories": [
+    {
+      "categoryID": 0,
+      "name": "Matemática",
+      "backgroundImage": "backgroundImage1.png",
+      "questions": [
         {
-            "categoryID": 0, 
-            "name":"categoryName1",
-            "backgroundImage": "backgroundImage1.png",
-            "questions":[
-                {
-                    "question":"question1",
-                    "tip": "question 1 tip",
-                    "explanation": "question1 Explanation",
-                    "difficulty": 1,
-                    "answers":[
-                        {
-                            "answer": "Question Answer1",
-                            "isAnswerCorrect": true
-                        },
-                        {
-                            "answer": "Question Answer2",
-                            "isAnswerCorrect": false
-                        },
-                        {
-                            "answer": "Question Answer3",
-                            "isAnswerCorrect": false
-                        },
-                        {
-                            "answer": "Question Answer4",
-                            "isAnswerCorrect": false
-                        }
-                    ]
-                },
-                {
-                    "question":"question2",
-                    "tip": "question 2 tip",
-                    "explanation": "question2 Explanation",
-                    "difficulty": 2,
-                    "answers":[
-                        {
-                            "answer": "Question Answer1",
-                            "isAnswerCorrect": true
-                        },
-                        {
-                            "answer": "Question Answer2",
-                            "isAnswerCorrect": false
-                        },
-                        {
-                            "answer": "Question Answer3",
-                            "isAnswerCorrect": false
-                        },
-                        {
-                            "answer": "Question Answer4",
-                            "isAnswerCorrect": false
-                        }
-                    ]
-                }
-
-            ]
+          "question": "question1",
+          "tip": "question 1 tip",
+          "explanation": "question1 Explanation",
+          "difficulty": 1,
+          "answers": [
+            {
+              "answer": "Question Answer1",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Question Answer2",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Question Answer3",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Question Answer4",
+              "isAnswerCorrect": false
+            }
+          ]
         },
         {
-            "categoryID": 1,
-            "name":"categoryName2",
-            "backgroundImage": "backgroundImage2.png",
-            "questions":[
-                {
-                    "question":"question1",
-                    "tip": "question 1 tip",
-                    "explanation": "question1 Explanation",
-                    "difficulty": 1,
-                    "answers":[
-                        {
-                            "answer": "Question Answer1",
-                            "isAnswerCorrect": true
-                        },
-                        {
-                            "answer": "Question Answer2",
-                            "isAnswerCorrect": false
-                        },
-                        {
-                            "answer": "Question Answer3",
-                            "isAnswerCorrect": false
-                        },
-                        {
-                            "answer": "Question Answer4",
-                            "isAnswerCorrect": false
-                        }
-                    ]
-                },
-                {
-                    "question":"question2",
-                    "tip": "question 2 tip",
-                    "explanation": "question2 Explanation",
-                    "difficulty": 2,
-                    "answers":[
-                        {
-                            "answer": "Question Answer1",
-                            "isAnswerCorrect": true
-                        },
-                        {
-                            "answer": "Question Answer2",
-                            "isAnswerCorrect": false
-                        },
-                        {
-                            "answer": "Question Answer3",
-                            "isAnswerCorrect": false
-                        },
-                        {
-                            "answer": "Question Answer4",
-                            "isAnswerCorrect": false
-                        }
-                    ]
-                }
-
-            ]
+          "question": "question2",
+          "tip": "question 2 tip",
+          "explanation": "question2 Explanation",
+          "difficulty": 2,
+          "answers": [
+            {
+              "answer": "Question Answer1",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Question Answer2",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Question Answer3",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Question Answer4",
+              "isAnswerCorrect": false
+            }
+          ]
         }
-    ]
+
+      ]
+    },
+    {
+      "categoryID": 1,
+      "name": "Ciencias",
+      "backgroundImage": "backgroundImage2.png",
+      "questions": [
+        {
+          "question": "question1",
+          "tip": "question 1 tip",
+          "explanation": "question1 Explanation",
+          "difficulty": 1,
+          "answers": [
+            {
+              "answer": "Question Answer1",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Question Answer2",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Question Answer3",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Question Answer4",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "question2",
+          "tip": "question 2 tip",
+          "explanation": "question2 Explanation",
+          "difficulty": 2,
+          "answers": [
+            {
+              "answer": "Question Answer1",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Question Answer2",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Question Answer3",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Question Answer4",
+              "isAnswerCorrect": false
+            }
+          ]
+        }
+
+      ]
+    },
+    {
+      "categoryID": 1,
+      "name": "Hostória",
+      "backgroundImage": "backgroundImage2.png",
+      "questions": [
+        {
+          "question": "question1",
+          "tip": "question 1 tip",
+          "explanation": "question1 Explanation",
+          "difficulty": 1,
+          "answers": [
+            {
+              "answer": "Question Answer1",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Question Answer2",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Question Answer3",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Question Answer4",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "question2",
+          "tip": "question 2 tip",
+          "explanation": "question2 Explanation",
+          "difficulty": 2,
+          "answers": [
+            {
+              "answer": "Question Answer1",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Question Answer2",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Question Answer3",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Question Answer4",
+              "isAnswerCorrect": false
+            }
+          ]
+        }
+
+      ]
+    },
+    {
+      "categoryID": 1,
+      "name": "Portugues",
+      "backgroundImage": "backgroundImage2.png",
+      "questions": [
+        {
+          "question": "question1",
+          "tip": "question 1 tip",
+          "explanation": "question1 Explanation",
+          "difficulty": 1,
+          "answers": [
+            {
+              "answer": "Question Answer1",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Question Answer2",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Question Answer3",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Question Answer4",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "question2",
+          "tip": "question 2 tip",
+          "explanation": "question2 Explanation",
+          "difficulty": 2,
+          "answers": [
+            {
+              "answer": "Question Answer1",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Question Answer2",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Question Answer3",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Question Answer4",
+              "isAnswerCorrect": false
+            }
+          ]
+        }
+
+      ]
+    },
+    {
+      "categoryID": 1,
+      "name": "Geografia",
+      "backgroundImage": "backgroundImage2.png",
+      "questions": [
+        {
+          "question": "question1",
+          "tip": "question 1 tip",
+          "explanation": "question1 Explanation",
+          "difficulty": 1,
+          "answers": [
+            {
+              "answer": "Question Answer1",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Question Answer2",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Question Answer3",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Question Answer4",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "question2",
+          "tip": "question 2 tip",
+          "explanation": "question2 Explanation",
+          "difficulty": 2,
+          "answers": [
+            {
+              "answer": "Question Answer1",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Question Answer2",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Question Answer3",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Question Answer4",
+              "isAnswerCorrect": false
+            }
+          ]
+        }
+
+      ]
+    },
+    {
+      "categoryID": 1,
+      "name": "Fisica",
+      "backgroundImage": "backgroundImage2.png",
+      "questions": [
+        {
+          "question": "question1",
+          "tip": "question 1 tip",
+          "explanation": "question1 Explanation",
+          "difficulty": 1,
+          "answers": [
+            {
+              "answer": "Question Answer1",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Question Answer2",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Question Answer3",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Question Answer4",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "question2",
+          "tip": "question 2 tip",
+          "explanation": "question2 Explanation",
+          "difficulty": 2,
+          "answers": [
+            {
+              "answer": "Question Answer1",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Question Answer2",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Question Answer3",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Question Answer4",
+              "isAnswerCorrect": false
+            }
+          ]
+        }
+
+      ]
+    }
+  ]
 }
