@@ -33,7 +33,7 @@ public class JsonDataStructure : MonoBehaviour
     [Serializable]
     public class JsonData
     {
-        List<Category> categories;
+        public List<Category> categories;
     }
 
 
