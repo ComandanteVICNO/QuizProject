@@ -35,6 +35,7 @@ public class JsonDataStructure : MonoBehaviour
     [Serializable]
     public class JsonData
     {
+        public string gameTitle;
         public List<Category> categories;
     }
 

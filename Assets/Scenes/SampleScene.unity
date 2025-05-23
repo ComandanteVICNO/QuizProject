@@ -292,6 +292,7 @@ MonoBehaviour:
     categoryColorG: 0
     categoryColorB: 0
     questions: []
+  mainMenuTitle: {fileID: 969943716}
 --- !u!4 &287289373
 Transform:
   m_ObjectHideFlags: 0
@@ -830,7 +831,7 @@ GameObject:
   - component: {fileID: 734602554}
   - component: {fileID: 734602556}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: DataLoader
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -851,6 +852,7 @@ MonoBehaviour:
   jsonFile: {fileID: 4900000, guid: 3ce8b30d2b344aa479b159d0043ec658, type: 3}
   fileName: quizData.json
   quizData:
+    gameTitle: 
     categories: []
 --- !u!4 &734602555
 Transform:
