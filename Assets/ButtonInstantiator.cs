@@ -1,5 +1,4 @@
 using TMPro;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -12,13 +11,19 @@ public class ButtonInstantiator : MonoBehaviour
     [SerializeField] GameObject buttonToSpawn;
     [SerializeField] Transform buttonParentTrasnform;
 
+
+    //Screen Size
+    [SerializeField] private Vector2 baseCellSize;
+    [SerializeField] private Vector2 baseCellSpacing;
+    [SerializeField] private Vector2 baseScreenSize;
+
     private void Start()
     {
         dataLoader = FindAnyObjectByType<DataLoader>();
 
         jsonData = dataLoader.quizData;
 
-        foreach(JsonDataStructure.Category category in dataLoader.quizData.categories)
+        foreach (JsonDataStructure.Category category in dataLoader.quizData.categories)
         {
             //Summon button from the pits of hell
             GameObject button = Instantiate(buttonToSpawn, buttonParentTrasnform);
@@ -26,17 +31,24 @@ public class ButtonInstantiator : MonoBehaviour
             //Write text in button
             TMP_Text buttonText = button.GetComponentInChildren<TMP_Text>();
             buttonText.text = category.name;
-            
+
             //Deal with color
             int r = category.categoryColorR;
             int g = category.categoryColorG;
             int b = category.categoryColorB;
 
             Image buttonImage = button.GetComponent<Image>();
+
+            buttonImage.color = new Color(r / 255f, g / 255f, b / 255f);
             
-            buttonImage.color = new Color(r/255f, g/255f, b/255f);
+            //Update category id in button
+            MainMenuButton buttonScript = button.GetComponent<MainMenuButton>();
+            
+            buttonScript.categoryID = category.categoryID;
+            
         }
-        
-        
+
+
+
     }
 }
