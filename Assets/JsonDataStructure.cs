@@ -26,7 +26,9 @@ public class JsonDataStructure : MonoBehaviour
     {
         public int categoryID;
         public string name;
-        public string backgroundImage;
+        public int categoryColorR;
+        public int categoryColorG;
+        public int categoryColorB;
         public List<Question> questions;
     }
 
