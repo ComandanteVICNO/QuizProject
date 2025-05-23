@@ -79,8 +79,8 @@ public class QuizHandler : MonoBehaviour
             GameObject button = Instantiate(buttonPrefab, buttonParent.transform);
             buttonList.Add(button);
 
-            TMP_Text buttonText = button.GetComponentInChildren<TMP_Text>();
-            buttonText.text = answer.answer;
+            AnswerButtonScript buttonScript = button.GetComponent<AnswerButtonScript>();
+            buttonScript.InitializeButton(answer.answer, answer.isAnswerCorrect);
         }
 
         questionTitle.text = questionsList[questionIndex].question;
@@ -124,6 +124,16 @@ public class QuizHandler : MonoBehaviour
         curretQuestionIndex--;
         UpdateQuizQuestion(curretQuestionIndex);
     }
-    
-    
+
+    public void ButtonAnswer(bool isCorrect)
+    {
+        if (isCorrect)
+        {
+            Debug.Log("Correct!!!");
+        }
+        else
+        {
+            Debug.Log("Wrong!!!");
+        }
+    }
 }
