@@ -143,7 +143,7 @@ MonoBehaviour:
     m_UnderlineThickness: 5.5664062
     m_StrikethroughOffset: 14.4
     m_StrikethroughThickness: 5.5664062
-    m_TabWidth: 19
+    m_TabWidth: 4.86
   m_Material: {fileID: -7210498537490785530}
   m_SourceFontFileGUID: 4d27a2c86494c8244ab3320fb34c7fe5
   m_CreationSettings:
