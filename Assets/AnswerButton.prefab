@@ -69,7 +69,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1320580587, guid: a956c3842d8da304e80ccac46d096931, type: 3}
+  m_Sprite: {fileID: 2018469599, guid: 9f85c1376de12374db4d24feff97a88e, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -78,7 +78,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 5
 --- !u!114 &7409051561151740525
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -150,6 +150,8 @@ MonoBehaviour:
   hoverMaterial: {fileID: 2100000, guid: ed4bad2f4cd699443b46cf14f8009a5a, type: 2}
   button: {fileID: 7409051561151740525}
   buttonImage: {fileID: 5696040914402082100}
+  buttonTextField: {fileID: 0}
+  buttonTextMargin: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &312128331860722268
 MonoBehaviour:
   m_ObjectHideFlags: 0

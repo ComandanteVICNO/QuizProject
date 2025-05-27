@@ -1,32 +1,39 @@
 {
-  "languageList": 
-  [
+  "languageList": [
     {
+      "name": "english",
       "languageID": "_en",
-      "imageFileName": "something",
-      "menuLanguage":
-      {
+      "imageFileName": "flag_en.png",
+      "menuLanguage": {
         "gameTitle": "Vicno's Quiz",
+        "languageMenuTitle": "Language",
+        "languageMenuButton": "Apply",
         "mainMenuButton": "Main Menu",
         "tipButton": "Need a Tip?"
       }
     },
     {
+      "name": "portugês",
       "languageID": "_pt",
-      "imageFileName": "algo",
+      "imageFileName": "flag_pt.png",
       "menuLanguage": {
         "gameTitle": "Quiz do Vicno",
+        "languageMenuTitle": "Idioma",
+        "languageMenuButton": "Aplicar",
         "mainMenuButton": "Menu Incial",
         "tipButton": "Dica?"
       }
     },
     {
-      "languageID": "_es",
-      "imageFileName": "não sei espanhol",
+      "name": "germanico?",
+      "languageID": "_de",
+      "imageFileName": "flag_de.png",
       "menuLanguage": {
-        "gameTitle": "não sei espanhol",
-        "mainMenuButton": "não sei espanhol",
-        "tipButton": "não sei espanhol"
+        "gameTitle": "não sei german",
+        "languageMenuTitle": "não sei german",
+        "languageMenuButton": "nsei german",
+        "mainMenuButton": "não sei german",
+        "tipButton": "não sei german"
       }
     }
   ]

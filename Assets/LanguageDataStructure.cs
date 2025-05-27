@@ -13,6 +13,7 @@ public class LanguageDataStructure : MonoBehaviour
     [Serializable]
     public class Localization
     {
+        public string name;
         public string languageID;
         public string imageFileName;
         public MenuLanguage menuLanguage;
@@ -22,6 +23,8 @@ public class LanguageDataStructure : MonoBehaviour
     public class MenuLanguage
     {
         public string gameTitle;
+        public string languageMenuTitle;
+        public string languageMenuButton;
         public string mainMenuButton;
         public string tipButton;
     }
