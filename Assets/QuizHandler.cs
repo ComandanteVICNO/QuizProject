@@ -2,14 +2,17 @@ using System;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
-using UnityEngine.Serialization;
 using UnityEngine.UI;
 
 public class QuizHandler : MonoBehaviour
 {
-    private int curretQuestionIndex = 0;
+    private int currentQuestionIndex = 0;
     
     GameDataHolder gameDataHolder;
+    private List<JsonDataStructure.Question> easyQuestions;
+    private List<JsonDataStructure.Question> normalQuestions;
+    private List<JsonDataStructure.Question> hardQuestions;
+    
     [SerializeField] private List<JsonDataStructure.Question> questionsList;
     [SerializeField] private List<JsonDataStructure.Answer> answersList;
     [SerializeField] private List<int> answerResponseValueList;
@@ -49,18 +52,49 @@ public class QuizHandler : MonoBehaviour
 
     private void OnEnable()
     {
-        
-        //Grab question data
+        easyQuestions = new List<JsonDataStructure.Question>();
+        normalQuestions = new List<JsonDataStructure.Question>();
+        hardQuestions= new List<JsonDataStructure.Question>();
+        //Grab question data depending on difficulty
         foreach (JsonDataStructure.Question question in gameDataHolder.currentCategory.questions)
         {
-            questionsList.Add(question);
+            if (question.difficulty == 0)
+            {
+                easyQuestions.Add(question);
+            }
+            else if (question.difficulty == 1)
+            {
+                normalQuestions.Add(question);
+            }
+            else if (question.difficulty == 2)
+            {
+                hardQuestions.Add(question);
+            }
             answerResponseValueList.Add(-1);
             
         }
-        curretQuestionIndex = 0;
         
+        //Shuffle difficulty lists
+        ShuffleList(easyQuestions);
+        ShuffleList(normalQuestions);
+        ShuffleList(hardQuestions);
+
+        foreach (JsonDataStructure.Question question in easyQuestions)
+        {
+            questionsList.Add(question);   
+        }
+        foreach (JsonDataStructure.Question question in normalQuestions)
+        {
+            questionsList.Add(question);   
+        }
+        foreach (JsonDataStructure.Question question in hardQuestions)
+        {
+            questionsList.Add(question);   
+        }
+        
+        currentQuestionIndex = 0;
         //Update Quiz with data
-        UpdateQuizQuestion(curretQuestionIndex);
+        UpdateQuizQuestion(currentQuestionIndex);
         
         
         //Update UI Panel
@@ -91,6 +125,7 @@ public class QuizHandler : MonoBehaviour
             answersList.Add(answer);
         }
         
+        ShuffleList(answersList);
         
         foreach (JsonDataStructure.Answer answer in answersList)
         {
@@ -137,7 +172,7 @@ public class QuizHandler : MonoBehaviour
         //Disable or Enable skip Buttons
         
         int maxIndex = questionsList.Count - 1;
-        if (curretQuestionIndex <= 0)
+        if (currentQuestionIndex <= 0)
         {
             backButton.interactable = false;
         }
@@ -146,7 +181,7 @@ public class QuizHandler : MonoBehaviour
             backButton.interactable = true;
         }
 
-        if (curretQuestionIndex >= maxIndex)
+        if (currentQuestionIndex >= maxIndex)
         {
             nextButton.interactable = false;
         }
@@ -160,31 +195,33 @@ public class QuizHandler : MonoBehaviour
 
     public void QuizQuestionForward()
     {
-        curretQuestionIndex++;
-        ToogleTip(false);
-        UpdateQuizQuestion(curretQuestionIndex);
+        explanationTitle.text = "";
+        currentQuestionIndex++;
+        ToggleTip(false);
+        UpdateQuizQuestion(currentQuestionIndex);
     }
 
     public void QuizQuestionBackward()
     {
-        curretQuestionIndex--;
-        ToogleTip(false);
-        UpdateQuizQuestion(curretQuestionIndex);
+        explanationTitle.text = "";
+        currentQuestionIndex--;
+        ToggleTip(false);
+        UpdateQuizQuestion(currentQuestionIndex);
     }
 
     public void ButtonAnswer(bool isCorrect)
     {
-        explanationTitle.text = questionsList[curretQuestionIndex].explanation;
+        explanationTitle.text = questionsList[currentQuestionIndex].explanation;
         
         if (isCorrect)
         {
             Debug.Log("Correct!!!");
-            answerResponseValueList[curretQuestionIndex] = 1;
+            answerResponseValueList[currentQuestionIndex] = 1;
         }
         else
         {
             Debug.Log("Wrong!!!");
-            answerResponseValueList[curretQuestionIndex] = 0;
+            answerResponseValueList[currentQuestionIndex] = 0;
         }
 
         foreach (GameObject button in buttonList)
@@ -213,15 +250,27 @@ public class QuizHandler : MonoBehaviour
         
     }
 
-    public void ToogleTip(bool isTipShown)
+    public void ToggleTip(bool isTipShown)
     {
         if (isTipShown)
         {
-            tipTitle.text = questionsList[curretQuestionIndex].tip;
+            tipTitle.text = questionsList[currentQuestionIndex].tip;
         }
         else
         {
             tipTitle.text = "";
+        }
+    }
+
+
+    void ShuffleList<T>(List<T> list)
+    {
+        for (int i = list.Count - 1; i > 0; i--)
+        {
+            int j = UnityEngine.Random.Range(0, i + 1); // includes i
+            T temp = list[i];
+            list[i] = list[j];
+            list[j] = temp;
         }
     }
     
