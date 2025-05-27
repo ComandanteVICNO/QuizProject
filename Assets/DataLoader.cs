@@ -3,16 +3,22 @@ using UnityEngine;
 
 public class DataLoader : MonoBehaviour
 {
-
+    [Header("Quiz Data")]
     [SerializeField] TextAsset jsonFile;
     [SerializeField] private string fileName = "quizData.json";
     private string exeFolderPath;
     private string dataFolderName = "QuizData/";
     private string dataFolderPath;
-    private string dataFilePath;
-
+    private string quizDataFilePath;
     [SerializeField] public JsonDataStructure.JsonData quizData;
+    
+    [Header("Language Data")]
+    [SerializeField] public TextAsset languageFile;
+    private string languageDataFilePath;
+    
+    [SerializeField] private string languageFileName = "languageData.json";
 
+    [SerializeField] public LanguageDataStructure.LanguageData languageData;
     
     bool isRunningInInspector = false;
     private void Awake()
@@ -24,7 +30,7 @@ public class DataLoader : MonoBehaviour
         if (isRunningInInspector)
         {
             quizData = JsonUtility.FromJson<JsonDataStructure.JsonData>(jsonFile.text);
-        
+            languageData = JsonUtility.FromJson<LanguageDataStructure.LanguageData>(languageFile.text);
             Debug.Log("THIS RAN!");
         }
         else
@@ -34,21 +40,41 @@ public class DataLoader : MonoBehaviour
         
             dataFolderPath = Path.Combine(exeFolderPath, dataFolderName);
         
-            dataFilePath = Path.Combine(dataFolderPath, fileName);
+            quizDataFilePath = Path.Combine(dataFolderPath, fileName);
         
+            
+            
+            languageDataFilePath = Path.Combine(dataFolderPath, languageFileName);
+            
             if (!Directory.Exists(dataFolderPath))
             {
                 Directory.CreateDirectory(dataFolderPath);
             }
 
-            if (File.Exists(dataFilePath))
+            
+            //Check if language file exists, if not create file
+            if (File.Exists(languageDataFilePath))
             {
-                string json = File.ReadAllText(dataFilePath);
+                string json = File.ReadAllText(quizDataFilePath);
+                languageData = JsonUtility.FromJson<LanguageDataStructure.LanguageData>(json); 
+            }
+            else
+            {
+                File.WriteAllText(languageDataFilePath, languageFile.text);
+                languageData = JsonUtility.FromJson<LanguageDataStructure.LanguageData>(languageFile.text);
+            }
+            
+            
+            
+            //Check if quiz data file exits, if not create file
+            if (File.Exists(quizDataFilePath))
+            {
+                string json = File.ReadAllText(quizDataFilePath);
                 quizData = JsonUtility.FromJson<JsonDataStructure.JsonData>(json);
             }
             else
             {
-                File.WriteAllText(dataFilePath, jsonFile.text);
+                File.WriteAllText(quizDataFilePath, jsonFile.text);
                 quizData = JsonUtility.FromJson<JsonDataStructure.JsonData>(jsonFile.text);
             }
         }

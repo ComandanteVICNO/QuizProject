@@ -1,0 +1,33 @@
+{
+  "languageList": 
+  [
+    {
+      "languageID": "_en",
+      "imageFileName": "something",
+      "menuLanguage":
+      {
+        "gameTitle": "Vicno's Quiz",
+        "mainMenuButton": "Main Menu",
+        "tipButton": "Need a Tip?"
+      }
+    },
+    {
+      "languageID": "_pt",
+      "imageFileName": "algo",
+      "menuLanguage": {
+        "gameTitle": "Quiz do Vicno",
+        "mainMenuButton": "Menu Incial",
+        "tipButton": "Dica?"
+      }
+    },
+    {
+      "languageID": "_es",
+      "imageFileName": "não sei espanhol",
+      "menuLanguage": {
+        "gameTitle": "não sei espanhol",
+        "mainMenuButton": "não sei espanhol",
+        "tipButton": "não sei espanhol"
+      }
+    }
+  ]
+}
