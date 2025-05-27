@@ -1,3 +1,5 @@
+using System;
+using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -11,23 +13,41 @@ public class ButtonInstantiator : MonoBehaviour
     [SerializeField] GameObject buttonToSpawn;
     [SerializeField] Transform buttonParentTrasnform;
 
+List<GameObject> instantiatedButtons = new List<GameObject>();
 
-    //Screen Size
-    [SerializeField] private Vector2 baseCellSize;
-    [SerializeField] private Vector2 baseCellSpacing;
-    [SerializeField] private Vector2 baseScreenSize;
 
-    private void Start()
+private void OnEnable()
+{
+        FindAnyObjectByType<DataLoader>().onDataReloaded += InstantiateButtons;
+}
+
+private void OnDisable()
+{
+    FindAnyObjectByType<DataLoader>().onDataReloaded -= InstantiateButtons;
+}
+
+private void Start()
     {
         dataLoader = FindAnyObjectByType<DataLoader>();
+        InstantiateButtons();
+    }
 
+    void InstantiateButtons()
+    {
         jsonData = dataLoader.quizData;
 
+        foreach (GameObject button in instantiatedButtons)
+        {
+            Destroy(button);
+        }
+        instantiatedButtons.Clear();
+        
         foreach (JsonDataStructure.Category category in dataLoader.quizData.categories)
         {
+            
             //Summon button from the pits of hell
             GameObject button = Instantiate(buttonToSpawn, buttonParentTrasnform);
-
+            instantiatedButtons.Add(button);
             //Write text in button
             TMP_Text buttonText = button.GetComponentInChildren<TMP_Text>();
             buttonText.text = category.name;
@@ -47,8 +67,5 @@ public class ButtonInstantiator : MonoBehaviour
             buttonScript.categoryID = category.categoryID;
             
         }
-
-
-
     }
 }

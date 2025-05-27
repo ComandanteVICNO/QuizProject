@@ -6,6 +6,9 @@ using UnityEngine.Serialization;
 
 public class DataLoader : MonoBehaviour
 {
+    public event Action onDataReloaded;
+    
+    
     [FormerlySerializedAs("jsonFile")]
     [Header("Quiz Data")]
     [SerializeField] TextAsset defaultQuizDataFile;
@@ -77,10 +80,7 @@ public class DataLoader : MonoBehaviour
     }
 
 
-    private void Start()
-    {
-        
-    }
+
 
     void CheckIfDataFolderExists()
     {
@@ -89,6 +89,9 @@ public class DataLoader : MonoBehaviour
             Directory.CreateDirectory(dataFolderPath);
         }
     }
+    
+    
+
     
     void CheckIfLanguageFileExists()
     {
@@ -104,7 +107,7 @@ public class DataLoader : MonoBehaviour
             languageData = JsonUtility.FromJson<LanguageDataStructure.LanguageData>(languageFile.text);
         }
     }
-
+    
     void CheckIfQuizDataFileExists()
     {
         //Check if quiz data file exits, if not create file
@@ -121,7 +124,28 @@ public class DataLoader : MonoBehaviour
             quizData = JsonUtility.FromJson<JsonDataStructure.JsonData>(defaultQuizDataFile.text);
         }
     }
+    public void LoadQuizData()
+    {
+        string newFileName = fileName + gameLanguageManager.currentLanguage.languageID + ".json";
+        quizDataFilePath = Path.Combine(dataFolderPath, newFileName);
 
+        if (File.Exists(quizDataFilePath))
+        {
+            string json = File.ReadAllText(quizDataFilePath);
+            quizData = JsonUtility.FromJson<JsonDataStructure.JsonData>(json);
+        }
+        else
+        {
+            string defaultQuizDataFilePath = Path.Combine(dataFolderPath, defaultQuizDataFileName);
+            
+            File.WriteAllText(defaultQuizDataFilePath, defaultQuizDataFile.text);
+            quizData = JsonUtility.FromJson<JsonDataStructure.JsonData>(defaultQuizDataFile.text);
+        }
+        
+        onDataReloaded?.Invoke();
+        
+    }
+    
     public void LoadLanguageData(string languageID)
     {
         string newFileName = fileName + languageID + ".json";

@@ -136,6 +136,9 @@ public class GameLanguageManager : MonoBehaviour
         gameTitle.text = languageList[currentLanguageIndex].menuLanguage.gameTitle;
         mainMenuButtonTitle.text = languageList[currentLanguageIndex].menuLanguage.mainMenuButton;
         tipButtonTitle.text = languageList[currentLanguageIndex].menuLanguage.tipButton;
+        
+        dataLoader.LoadQuizData();
+        
     }
     
     

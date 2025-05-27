@@ -1,4 +1,5 @@
 using System;
+using DG.Tweening;
 using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -14,6 +15,8 @@ public class ButtonHoverShaderToggle : MonoBehaviour,IPointerEnterHandler, IPoin
 
     [SerializeField] TMP_Text buttonTextField;
     [SerializeField] private Vector4 buttonTextMargin;
+    
+    
     private void Start()
     {
         buttonTextField = button.GetComponentInChildren<TMP_Text>();
@@ -28,6 +31,8 @@ public class ButtonHoverShaderToggle : MonoBehaviour,IPointerEnterHandler, IPoin
         if (button.IsInteractable())
         {
             buttonImage.material = hoverMaterial;
+            button.transform.DOScale(1.1f,0.2f).SetEase(Ease.OutBounce);
+            
         }
         else
         {
@@ -39,10 +44,12 @@ public class ButtonHoverShaderToggle : MonoBehaviour,IPointerEnterHandler, IPoin
     {
         Debug.Log("OnPointerExit");
         buttonImage.material = null;
+        button.transform.DOScale(1f,0.2f).SetEase(Ease.InBounce);
     }
 
     private void OnDisable()
     {
+        button.transform.localScale = Vector3.one;
         buttonImage.material = null;
     }
 }
