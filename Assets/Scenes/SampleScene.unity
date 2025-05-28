@@ -1034,11 +1034,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 146305a8fe67dee4b86dc0a0bf737a88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultQuizDataFile: {fileID: 4900000, guid: 3ce8b30d2b344aa479b159d0043ec658, type: 3}
+  defaultQuizDataFile: {fileID: 4900000, guid: 669a5ea817c488c4395f10316563f09e, type: 3}
   fileName: quizData
   quizData:
     gameTitle: 
     categories: []
+  defaultQuizDataFilesList:
+  - {fileID: 4900000, guid: e308d02bf2a9dfb4daa62457053bd5e0, type: 3}
+  - {fileID: 4900000, guid: 669a5ea817c488c4395f10316563f09e, type: 3}
+  - {fileID: 4900000, guid: f6381073bda2a724ead5ba4e28e402b9, type: 3}
   languageFile: {fileID: 4900000, guid: cdefb7be59d2b5343b22e06e21a74ba8, type: 3}
   languageFileName: languageData.json
   languageImages:
@@ -4508,9 +4512,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   buttonToSpawn: {fileID: 8083402104902534833, guid: cfd3947ece0372e468ff6521547a72bc, type: 3}
   buttonParentTrasnform: {fileID: 2038336213}
-  baseCellSize: {x: 338, y: 158}
-  baseCellSpacing: {x: 135, y: 45}
-  baseScreenSize: {x: 1920, y: 1080}
 --- !u!114 &2038336215
 MonoBehaviour:
   m_ObjectHideFlags: 0

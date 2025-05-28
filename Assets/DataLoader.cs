@@ -19,6 +19,8 @@ public class DataLoader : MonoBehaviour
     private string defaultQuizDataFileName;
     private string quizDataFilePath;
     [SerializeField] public JsonDataStructure.JsonData quizData;
+    [SerializeField] private List<TextAsset> defaultQuizDataFilesList;
+    
     
     [Header("Language Data")]
     [SerializeField] public TextAsset languageFile;
@@ -106,6 +108,9 @@ public class DataLoader : MonoBehaviour
             File.WriteAllText(languageDataFilePath, languageFile.text);
             languageData = JsonUtility.FromJson<LanguageDataStructure.LanguageData>(languageFile.text);
         }
+
+        
+
     }
     
     void CheckIfQuizDataFileExists()
@@ -122,6 +127,17 @@ public class DataLoader : MonoBehaviour
             
             File.WriteAllText(defaultQuizDataFilePath, defaultQuizDataFile.text);
             quizData = JsonUtility.FromJson<JsonDataStructure.JsonData>(defaultQuizDataFile.text);
+        }
+        
+        foreach (var textFile in defaultQuizDataFilesList)
+        {
+            string name = textFile.name + ".json";
+            string path = Path.Combine(dataFolderPath, name);
+
+            if (!File.Exists(path))
+            {
+                File.WriteAllText(path, textFile.text);
+            }
         }
     }
     public void LoadQuizData()

@@ -1,0 +1,635 @@
+{
+  "gameTitle": "Vicno's Cool Quiz",
+  "categories": [
+    {
+      "categoryID": 0,
+      "name": "Matemática",
+      "categoryColorR": 210,
+      "categoryColorG": 35,
+      "categoryColorB": 7,
+      "questions": [
+        {
+          "question": "Qual é o resultado de 7 + 5?",
+          "tip": "Some os dois números.",
+          "explanation": "7 + 5 = 12, pois somamos os valores diretamente.",
+          "difficulty": 1,
+          "answers": [
+            {
+              "answer": "12",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "10",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "14",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "13",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Qual é o valor de x na equação 2x - 4 = 10?",
+          "tip": "Isolando o x na equação.",
+          "explanation": "2x - 4 = 10 → 2x = 14 → x = 7.",
+          "difficulty": 2,
+          "answers": [
+            {
+              "answer": "7",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "6",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "8",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "5",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Qual o próximo número na sequência: 2, 4, 8, 16, ...?",
+          "tip": "Cada número é o dobro do anterior.",
+          "explanation": "Cada termo da sequência é multiplicado por 2: 16 x 2 = 32.",
+          "difficulty": 1,
+          "answers": [
+            {
+              "answer": "32",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "24",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "30",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "20",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Qual é a fórmula da área de um círculo?",
+          "tip": "Use o raio (r) e a constante π.",
+          "explanation": "A área do círculo é dada por A = πr².",
+          "difficulty": 2,
+          "answers": [
+            {
+              "answer": "A = πr²",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "A = 2πr",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "A = πd",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "A = r²",
+              "isAnswerCorrect": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "categoryID": 1,
+      "name": "Ciencias",
+      "categoryColorR": 7,
+      "categoryColorG": 219,
+      "categoryColorB": 60,
+      "questions": [
+        {
+          "question": "Qual é o processo pelo qual as plantas produzem seu alimento?",
+          "tip": "Pense na luz solar e clorofila.",
+          "explanation": "As plantas utilizam a fotossíntese para transformar luz solar em energia.",
+          "difficulty": 1,
+          "answers": [
+            {
+              "answer": "Fotossíntese",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Respiração",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Digestão",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Fermentação",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Qual é o elemento químico representado pelo símbolo 'O'?",
+          "tip": "É essencial para a respiração humana.",
+          "explanation": "O símbolo 'O' representa o oxigênio, fundamental para muitos seres vivos.",
+          "difficulty": 2,
+          "answers": [
+            {
+              "answer": "Oxigênio",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Ouro",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Ozônio",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Ósmio",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Qual é o maior órgão do corpo humano?",
+          "tip": "É o órgão que protege o corpo do ambiente externo.",
+          "explanation": "A pele é o maior órgão do corpo humano.",
+          "difficulty": 1,
+          "answers": [
+            {
+              "answer": "Pele",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Fígado",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Coração",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Pulmões",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Qual dos seguintes é um gás essencial para a respiração dos seres humanos?",
+          "tip": "É necessário para a queima de nutrientes no corpo.",
+          "explanation": "O oxigênio é o gás essencial para a respiração humana.",
+          "difficulty": 1,
+          "answers": [
+            {
+              "answer": "Oxigênio",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Nitrogênio",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Dióxido de carbono",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Hidrogênio",
+              "isAnswerCorrect": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "categoryID": 2,
+      "name": "História",
+      "categoryColorR": 219,
+      "categoryColorG": 194,
+      "categoryColorB": 7,
+      "questions": [
+        {
+          "question": "Quem foi o primeiro presidente do Brasil?",
+          "tip": "Ele governou logo após a Proclamação da República.",
+          "explanation": "Deodoro da Fonseca foi o primeiro presidente do Brasil.",
+          "difficulty": 1,
+          "answers": [
+            {
+              "answer": "Deodoro da Fonseca",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Getúlio Vargas",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Juscelino Kubitschek",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Dom Pedro II",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Em que ano aconteceu a Proclamação da República no Brasil?",
+          "tip": "Foi no final do século XIX.",
+          "explanation": "A Proclamação da República ocorreu em 1889.",
+          "difficulty": 2,
+          "answers": [
+            {
+              "answer": "1889",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "1822",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "1500",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "1930",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Qual era o nome do imperador do Brasil durante a independência?",
+          "tip": "Ele declarou a independência às margens do rio Ipiranga.",
+          "explanation": "Dom Pedro I foi o imperador que proclamou a independência do Brasil.",
+          "difficulty": 1,
+          "answers": [
+            {
+              "answer": "Dom Pedro I",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Dom Pedro II",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Dom João VI",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Getúlio Vargas",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Qual guerra ficou conhecida como 'Guerra dos Farrapos'?",
+          "tip": "Foi uma revolta no sul do Brasil no século XIX.",
+          "explanation": "A Guerra dos Farrapos foi uma revolta no Rio Grande do Sul entre 1835 e 1845.",
+          "difficulty": 3,
+          "answers": [
+            {
+              "answer": "Revolução Farroupilha",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Guerra do Paraguai",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Revolução de 1930",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Guerra dos Emboabas",
+              "isAnswerCorrect": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "categoryID": 3,
+      "name": "Portugues",
+      "categoryColorR": 7,
+      "categoryColorG": 194,
+      "categoryColorB": 219,
+      "questions": [
+        {
+          "question": "Qual é o plural de 'cão'?",
+          "tip": "Plural de animais domésticos.",
+          "explanation": "O plural correto é 'cães'.",
+          "difficulty": 1,
+          "answers": [
+            {
+              "answer": "Cães",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Cãos",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Cãoses",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Cãeses",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Qual é a função da vírgula na frase: 'Fui ao mercado, comprei frutas e voltei para casa'?",
+          "tip": "Separação de ações.",
+          "explanation": "A vírgula separa orações independentes na frase.",
+          "difficulty": 2,
+          "answers": [
+            {
+              "answer": "Separar orações",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Indicar pergunta",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Unir palavras",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Dar ênfase",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Qual das frases está correta?",
+          "tip": "Preste atenção na ortografia.",
+          "explanation": "'Ele vai à escola' está correta porque usa crase.",
+          "difficulty": 1,
+          "answers": [
+            {
+              "answer": "Ele vai à escola",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Ele vai a escola",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Ele vai há escola",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Ele vai á escola",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "O que é um verbo transitivo?",
+          "tip": "Verbo que necessita de complemento.",
+          "explanation": "Verbos transitivos precisam de objeto para completar seu sentido.",
+          "difficulty": 2,
+          "answers": [
+            {
+              "answer": "Verbo que precisa de complemento",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Verbo que não muda",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Verbo que indica estado",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Verbo que só tem passado",
+              "isAnswerCorrect": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "categoryID": 4,
+      "name": "Geografia",
+      "categoryColorR": 219,
+      "categoryColorG": 106,
+      "categoryColorB": 7,
+      "questions": [
+        {
+          "question": "Qual é o maior continente do mundo?",
+          "tip": "Fica na Ásia.",
+          "explanation": "A Ásia é o maior continente em extensão territorial.",
+          "difficulty": 1,
+          "answers": [
+            {
+              "answer": "Ásia",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "África",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Europa",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "América",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Qual o nome do oceano que banha a costa leste do Brasil?",
+          "tip": "É o maior oceano do planeta.",
+          "explanation": "O Oceano Atlântico banha a costa leste do Brasil.",
+          "difficulty": 2,
+          "answers": [
+            {
+              "answer": "Oceano Atlântico",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Oceano Pacífico",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Oceano Índico",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Oceano Ártico",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Qual é o país mais populoso do mundo?",
+          "tip": "Fica na Ásia e tem a maior população.",
+          "explanation": "A China é o país mais populoso do mundo.",
+          "difficulty": 1,
+          "answers": [
+            {
+              "answer": "China",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Índia",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Estados Unidos",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Rússia",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Qual é a capital do Brasil?",
+          "tip": "Cidade planejada construída na década de 1960.",
+          "explanation": "Brasília é a capital do Brasil.",
+          "difficulty": 1,
+          "answers": [
+            {
+              "answer": "Brasília",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Rio de Janeiro",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "São Paulo",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Salvador",
+              "isAnswerCorrect": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "categoryID": 5,
+      "name": "Fisica",
+      "categoryColorR": 7,
+      "categoryColorG": 7,
+      "categoryColorB": 219,
+      "questions": [
+        {
+          "question": "Qual é a unidade de medida da força no Sistema Internacional?",
+          "tip": "Foi nomeada em homenagem a um físico famoso.",
+          "explanation": "A unidade de força é o Newton (N), em homenagem a Isaac Newton.",
+          "difficulty": 1,
+          "answers": [
+            {
+              "answer": "Newton (N)",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Joule (J)",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Watt (W)",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Pascal (Pa)",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "O que acontece com a velocidade de um objeto em queda livre na ausência de resistência do ar?",
+          "tip": "Pense na aceleração constante.",
+          "explanation": "A velocidade aumenta constantemente devido à aceleração da gravidade.",
+          "difficulty": 2,
+          "answers": [
+            {
+              "answer": "Aumenta devido à gravidade",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Diminui até parar",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Permanece constante",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Varia aleatoriamente",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "O que é a energia cinética?",
+          "tip": "Energia relacionada ao movimento.",
+          "explanation": "Energia cinética é a energia que um corpo possui devido ao seu movimento.",
+          "difficulty": 1,
+          "answers": [
+            {
+              "answer": "Energia do movimento",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Energia armazenada",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Energia térmica",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Energia elétrica",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Qual a fórmula da segunda lei de Newton?",
+          "tip": "Relaciona força, massa e aceleração.",
+          "explanation": "F = m × a (força é massa vezes aceleração).",
+          "difficulty": 2,
+          "answers": [
+            {
+              "answer": "F = m × a",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "E = m × c²",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "P = m × v",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "V = d / t",
+              "isAnswerCorrect": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

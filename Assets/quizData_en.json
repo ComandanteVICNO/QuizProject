@@ -1,0 +1,635 @@
+{
+  "gameTitle": "Vicno's Cool Quiz",
+  "categories": [
+    {
+      "categoryID": 0,
+      "name": "Mathematics",
+      "categoryColorR": 210,
+      "categoryColorG": 35,
+      "categoryColorB": 7,
+      "questions": [
+        {
+          "question": "What is the result of 7 + 5?",
+          "tip": "Add the two numbers.",
+          "explanation": "7 + 5 = 12, as we add the values directly.",
+          "difficulty": 1,
+          "answers": [
+            {
+              "answer": "12",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "10",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "14",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "13",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "What is the value of x in the equation 2x - 4 = 10?",
+          "tip": "Isolate x in the equation.",
+          "explanation": "2x - 4 = 10 → 2x = 14 → x = 7.",
+          "difficulty": 2,
+          "answers": [
+            {
+              "answer": "7",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "6",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "8",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "5",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "What is the next number in the sequence: 2, 4, 8, 16, ...?",
+          "tip": "Each number is double the previous one.",
+          "explanation": "Each term in the sequence is multiplied by 2: 16 x 2 = 32.",
+          "difficulty": 1,
+          "answers": [
+            {
+              "answer": "32",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "24",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "30",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "20",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "What is the formula for the area of a circle?",
+          "tip": "Use the radius (r) and the constant π.",
+          "explanation": "The area of a circle is given by A = πr².",
+          "difficulty": 2,
+          "answers": [
+            {
+              "answer": "A = πr²",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "A = 2πr",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "A = πd",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "A = r²",
+              "isAnswerCorrect": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "categoryID": 1,
+      "name": "Science",
+      "categoryColorR": 7,
+      "categoryColorG": 219,
+      "categoryColorB": 60,
+      "questions": [
+        {
+          "question": "What is the process by which plants produce their food?",
+          "tip": "Think about sunlight and chlorophyll.",
+          "explanation": "Plants use photosynthesis to convert sunlight into energy.",
+          "difficulty": 1,
+          "answers": [
+            {
+              "answer": "Photosynthesis",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Respiration",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Digestion",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Fermentation",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "What is the chemical element represented by the symbol 'O'?",
+          "tip": "It's essential for human breathing.",
+          "explanation": "The symbol 'O' represents oxygen, fundamental for many living beings.",
+          "difficulty": 2,
+          "answers": [
+            {
+              "answer": "Oxygen",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Gold",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Ozone",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Osmium",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "What is the largest organ of the human body?",
+          "tip": "It's the organ that protects the body from the external environment.",
+          "explanation": "The skin is the largest organ of the human body.",
+          "difficulty": 1,
+          "answers": [
+            {
+              "answer": "Skin",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Liver",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Heart",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Lungs",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Which of the following is an essential gas for human breathing?",
+          "tip": "It's necessary for burning nutrients in the body.",
+          "explanation": "Oxygen is the essential gas for human breathing.",
+          "difficulty": 1,
+          "answers": [
+            {
+              "answer": "Oxygen",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Nitrogen",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Carbon dioxide",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Hydrogen",
+              "isAnswerCorrect": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "categoryID": 2,
+      "name": "History",
+      "categoryColorR": 219,
+      "categoryColorG": 194,
+      "categoryColorB": 7,
+      "questions": [
+        {
+          "question": "Who was the first president of Brazil?",
+          "tip": "He governed right after the Proclamation of the Republic.",
+          "explanation": "Deodoro da Fonseca was the first president of Brazil.",
+          "difficulty": 1,
+          "answers": [
+            {
+              "answer": "Deodoro da Fonseca",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Getúlio Vargas",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Juscelino Kubitschek",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Dom Pedro II",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "In what year did the Proclamation of the Republic happen in Brazil?",
+          "tip": "It was at the end of the 19th century.",
+          "explanation": "The Proclamation of the Republic occurred in 1889.",
+          "difficulty": 2,
+          "answers": [
+            {
+              "answer": "1889",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "1822",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "1500",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "1930",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "What was the name of the emperor of Brazil during independence?",
+          "tip": "He declared independence on the banks of the Ipiranga river.",
+          "explanation": "Dom Pedro I was the emperor who proclaimed Brazil's independence.",
+          "difficulty": 1,
+          "answers": [
+            {
+              "answer": "Dom Pedro I",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Dom Pedro II",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Dom João VI",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Getúlio Vargas",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Which war became known as the 'War of the Ragamuffins'?",
+          "tip": "It was a revolt in southern Brazil in the 19th century.",
+          "explanation": "The War of the Ragamuffins was a revolt in Rio Grande do Sul between 1835 and 1845.",
+          "difficulty": 3,
+          "answers": [
+            {
+              "answer": "Farroupilha Revolution",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Paraguayan War",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Revolution of 1930",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "War of the Emboabas",
+              "isAnswerCorrect": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "categoryID": 3,
+      "name": "Portuguese",
+      "categoryColorR": 7,
+      "categoryColorG": 194,
+      "categoryColorB": 219,
+      "questions": [
+        {
+          "question": "What is the plural of 'cão' (dog)?",
+          "tip": "Plural of domestic animals.",
+          "explanation": "The correct plural is 'cães' (dogs).",
+          "difficulty": 1,
+          "answers": [
+            {
+              "answer": "Cães",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Cãos",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Cãoses",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Cãeses",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "What is the function of the comma in the sentence: 'Fui ao mercado, comprei frutas e voltei para casa' (I went to the market, bought fruits and returned home)?",
+          "tip": "Separation of actions.",
+          "explanation": "The comma separates independent clauses in the sentence.",
+          "difficulty": 2,
+          "answers": [
+            {
+              "answer": "Separate clauses",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Indicate question",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Join words",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Give emphasis",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Which of the sentences is correct?",
+          "tip": "Pay attention to spelling.",
+          "explanation": "'Ele vai à escola' (He goes to school) is correct because it uses the grave accent (crase).",
+          "difficulty": 1,
+          "answers": [
+            {
+              "answer": "Ele vai à escola",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Ele vai a escola",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Ele vai há escola",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Ele vai á escola",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "What is a transitive verb?",
+          "tip": "Verb that needs a complement.",
+          "explanation": "Transitive verbs need an object to complete their meaning.",
+          "difficulty": 2,
+          "answers": [
+            {
+              "answer": "Verb that needs a complement",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Verb that doesn't change",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Verb that indicates state",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Verb that only has past tense",
+              "isAnswerCorrect": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "categoryID": 4,
+      "name": "Geography",
+      "categoryColorR": 219,
+      "categoryColorG": 106,
+      "categoryColorB": 7,
+      "questions": [
+        {
+          "question": "What is the largest continent in the world?",
+          "tip": "It's in Asia.",
+          "explanation": "Asia is the largest continent in territorial extension.",
+          "difficulty": 1,
+          "answers": [
+            {
+              "answer": "Asia",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Africa",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Europe",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "America",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "What is the name of the ocean that bathes Brazil's eastern coast?",
+          "tip": "It's the largest ocean on the planet.",
+          "explanation": "The Atlantic Ocean bathes Brazil's eastern coast.",
+          "difficulty": 2,
+          "answers": [
+            {
+              "answer": "Atlantic Ocean",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Pacific Ocean",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Indian Ocean",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Arctic Ocean",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "What is the most populous country in the world?",
+          "tip": "It's in Asia and has the largest population.",
+          "explanation": "China is the most populous country in the world.",
+          "difficulty": 1,
+          "answers": [
+            {
+              "answer": "China",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "India",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "United States",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Russia",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "What is the capital of Brazil?",
+          "tip": "Planned city built in the 1960s.",
+          "explanation": "Brasília is the capital of Brazil.",
+          "difficulty": 1,
+          "answers": [
+            {
+              "answer": "Brasília",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Rio de Janeiro",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "São Paulo",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Salvador",
+              "isAnswerCorrect": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "categoryID": 5,
+      "name": "Physics",
+      "categoryColorR": 7,
+      "categoryColorG": 7,
+      "categoryColorB": 219,
+      "questions": [
+        {
+          "question": "What is the unit of measurement for force in the International System?",
+          "tip": "It was named after a famous physicist.",
+          "explanation": "The unit of force is the Newton (N), in honor of Isaac Newton.",
+          "difficulty": 1,
+          "answers": [
+            {
+              "answer": "Newton (N)",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Joule (J)",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Watt (W)",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Pascal (Pa)",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "What happens to the velocity of an object in free fall in the absence of air resistance?",
+          "tip": "Think about constant acceleration.",
+          "explanation": "Velocity increases constantly due to gravitational acceleration.",
+          "difficulty": 2,
+          "answers": [
+            {
+              "answer": "Increases due to gravity",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Decreases until it stops",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Remains constant",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Varies randomly",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "What is kinetic energy?",
+          "tip": "Energy related to movement.",
+          "explanation": "Kinetic energy is the energy that a body possesses due to its motion.",
+          "difficulty": 1,
+          "answers": [
+            {
+              "answer": "Energy of movement",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Stored energy",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Thermal energy",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Electrical energy",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "What is the formula for Newton's second law?",
+          "tip": "It relates force, mass and acceleration.",
+          "explanation": "F = m × a (force equals mass times acceleration).",
+          "difficulty": 2,
+          "answers": [
+            {
+              "answer": "F = m × a",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "E = m × c²",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "P = m × v",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "V = d / t",
+              "isAnswerCorrect": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,635 @@
+{
+  "gameTitle": "Vicno's Cooles Quiz",
+  "categories": [
+    {
+      "categoryID": 0,
+      "name": "Mathematik",
+      "categoryColorR": 210,
+      "categoryColorG": 35,
+      "categoryColorB": 7,
+      "questions": [
+        {
+          "question": "Was ist das Ergebnis von 7 + 5?",
+          "tip": "Addiere die beiden Zahlen.",
+          "explanation": "7 + 5 = 12, da wir die Werte direkt addieren.",
+          "difficulty": 1,
+          "answers": [
+            {
+              "answer": "12",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "10",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "14",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "13",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Was ist der Wert von x in der Gleichung 2x - 4 = 10?",
+          "tip": "Isoliere x in der Gleichung.",
+          "explanation": "2x - 4 = 10 → 2x = 14 → x = 7.",
+          "difficulty": 2,
+          "answers": [
+            {
+              "answer": "7",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "6",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "8",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "5",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Wie lautet die nächste Zahl in der Folge: 2, 4, 8, 16, ...?",
+          "tip": "Jede Zahl ist das Doppelte der vorherigen.",
+          "explanation": "Jeder Term in der Folge wird mit 2 multipliziert: 16 x 2 = 32.",
+          "difficulty": 1,
+          "answers": [
+            {
+              "answer": "32",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "24",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "30",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "20",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Wie lautet die Formel für die Fläche eines Kreises?",
+          "tip": "Verwende den Radius (r) und die Konstante π.",
+          "explanation": "Die Fläche eines Kreises wird durch A = πr² gegeben.",
+          "difficulty": 2,
+          "answers": [
+            {
+              "answer": "A = πr²",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "A = 2πr",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "A = πd",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "A = r²",
+              "isAnswerCorrect": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "categoryID": 1,
+      "name": "Naturwissenschaften",
+      "categoryColorR": 7,
+      "categoryColorG": 219,
+      "categoryColorB": 60,
+      "questions": [
+        {
+          "question": "Wie heißt der Prozess, durch den Pflanzen ihre Nahrung produzieren?",
+          "tip": "Denke an Sonnenlicht und Chlorophyll.",
+          "explanation": "Pflanzen nutzen die Photosynthese, um Sonnenlicht in Energie umzuwandeln.",
+          "difficulty": 1,
+          "answers": [
+            {
+              "answer": "Photosynthese",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Atmung",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Verdauung",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Fermentation",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Welches chemische Element wird durch das Symbol 'O' dargestellt?",
+          "tip": "Es ist essentiell für die menschliche Atmung.",
+          "explanation": "Das Symbol 'O' steht für Sauerstoff, der für viele Lebewesen fundamental ist.",
+          "difficulty": 2,
+          "answers": [
+            {
+              "answer": "Sauerstoff",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Gold",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Ozon",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Osmium",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Was ist das größte Organ des menschlichen Körpers?",
+          "tip": "Es ist das Organ, das den Körper vor der äußeren Umgebung schützt.",
+          "explanation": "Die Haut ist das größte Organ des menschlichen Körpers.",
+          "difficulty": 1,
+          "answers": [
+            {
+              "answer": "Haut",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Leber",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Herz",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Lungen",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Welches der folgenden Gase ist für die menschliche Atmung unerlässlich?",
+          "tip": "Es ist notwendig für die Verbrennung von Nährstoffen im Körper.",
+          "explanation": "Sauerstoff ist das essentielle Gas für die menschliche Atmung.",
+          "difficulty": 1,
+          "answers": [
+            {
+              "answer": "Sauerstoff",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Stickstoff",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Kohlendioxid",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Wasserstoff",
+              "isAnswerCorrect": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "categoryID": 2,
+      "name": "Geschichte",
+      "categoryColorR": 219,
+      "categoryColorG": 194,
+      "categoryColorB": 7,
+      "questions": [
+        {
+          "question": "Wer war der erste Präsident Brasiliens?",
+          "tip": "Er regierte direkt nach der Ausrufung der Republik.",
+          "explanation": "Deodoro da Fonseca war der erste Präsident Brasiliens.",
+          "difficulty": 1,
+          "answers": [
+            {
+              "answer": "Deodoro da Fonseca",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Getúlio Vargas",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Juscelino Kubitschek",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Dom Pedro II",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "In welchem Jahr fand die Ausrufung der Republik in Brasilien statt?",
+          "tip": "Es war am Ende des 19. Jahrhunderts.",
+          "explanation": "Die Ausrufung der Republik erfolgte 1889.",
+          "difficulty": 2,
+          "answers": [
+            {
+              "answer": "1889",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "1822",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "1500",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "1930",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Wie hieß der Kaiser Brasiliens während der Unabhängigkeit?",
+          "tip": "Er erklärte die Unabhängigkeit an den Ufern des Flusses Ipiranga.",
+          "explanation": "Dom Pedro I war der Kaiser, der Brasiliens Unabhängigkeit proklamierte.",
+          "difficulty": 1,
+          "answers": [
+            {
+              "answer": "Dom Pedro I",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Dom Pedro II",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Dom João VI",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Getúlio Vargas",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Welcher Krieg wurde als 'Krieg der Lumpen' bekannt?",
+          "tip": "Es war ein Aufstand im Süden Brasiliens im 19. Jahrhundert.",
+          "explanation": "Der Krieg der Lumpen war ein Aufstand in Rio Grande do Sul zwischen 1835 und 1845.",
+          "difficulty": 3,
+          "answers": [
+            {
+              "answer": "Farroupilha-Revolution",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Paraguayischer Krieg",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Revolution von 1930",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Emboabas-Krieg",
+              "isAnswerCorrect": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "categoryID": 3,
+      "name": "Portugiesisch",
+      "categoryColorR": 7,
+      "categoryColorG": 194,
+      "categoryColorB": 219,
+      "questions": [
+        {
+          "question": "Wie lautet der Plural von 'cão' (Hund)?",
+          "tip": "Plural von Haustieren.",
+          "explanation": "Der korrekte Plural ist 'cães' (Hunde).",
+          "difficulty": 1,
+          "answers": [
+            {
+              "answer": "Cães",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Cãos",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Cãoses",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Cãeses",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Was ist die Funktion des Kommas in dem Satz: 'Fui ao mercado, comprei frutas e voltei para casa' (Ich ging zum Markt, kaufte Früchte und kehrte nach Hause zurück)?",
+          "tip": "Trennung von Handlungen.",
+          "explanation": "Das Komma trennt unabhängige Satzteile im Satz.",
+          "difficulty": 2,
+          "answers": [
+            {
+              "answer": "Satzteile trennen",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Frage anzeigen",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Wörter verbinden",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Betonung geben",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Welcher der Sätze ist korrekt?",
+          "tip": "Achte auf die Rechtschreibung.",
+          "explanation": "'Ele vai à escola' (Er geht zur Schule) ist korrekt, weil es den Gravis-Akzent (Crase) verwendet.",
+          "difficulty": 1,
+          "answers": [
+            {
+              "answer": "Ele vai à escola",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Ele vai a escola",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Ele vai há escola",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Ele vai á escola",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Was ist ein transitives Verb?",
+          "tip": "Verb, das eine Ergänzung benötigt.",
+          "explanation": "Transitive Verben benötigen ein Objekt, um ihre Bedeutung zu vervollständigen.",
+          "difficulty": 2,
+          "answers": [
+            {
+              "answer": "Verb, das eine Ergänzung benötigt",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Verb, das sich nicht ändert",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Verb, das einen Zustand anzeigt",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Verb, das nur Vergangenheit hat",
+              "isAnswerCorrect": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "categoryID": 4,
+      "name": "Geographie",
+      "categoryColorR": 219,
+      "categoryColorG": 106,
+      "categoryColorB": 7,
+      "questions": [
+        {
+          "question": "Was ist der größte Kontinent der Welt?",
+          "tip": "Er liegt in Asien.",
+          "explanation": "Asien ist der größte Kontinent in territorialer Ausdehnung.",
+          "difficulty": 1,
+          "answers": [
+            {
+              "answer": "Asien",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Afrika",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Europa",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Amerika",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Wie heißt der Ozean, der Brasiliens Ostküste umspült?",
+          "tip": "Es ist der größte Ozean des Planeten.",
+          "explanation": "Der Atlantische Ozean umspült Brasiliens Ostküste.",
+          "difficulty": 2,
+          "answers": [
+            {
+              "answer": "Atlantischer Ozean",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Pazifischer Ozean",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Indischer Ozean",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Arktischer Ozean",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Was ist das bevölkerungsreichste Land der Welt?",
+          "tip": "Es liegt in Asien und hat die größte Bevölkerung.",
+          "explanation": "China ist das bevölkerungsreichste Land der Welt.",
+          "difficulty": 1,
+          "answers": [
+            {
+              "answer": "China",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Indien",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Vereinigte Staaten",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Russland",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Was ist die Hauptstadt Brasiliens?",
+          "tip": "Geplante Stadt, die in den 1960er Jahren erbaut wurde.",
+          "explanation": "Brasília ist die Hauptstadt Brasiliens.",
+          "difficulty": 1,
+          "answers": [
+            {
+              "answer": "Brasília",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Rio de Janeiro",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "São Paulo",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Salvador",
+              "isAnswerCorrect": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "categoryID": 5,
+      "name": "Physik",
+      "categoryColorR": 7,
+      "categoryColorG": 7,
+      "categoryColorB": 219,
+      "questions": [
+        {
+          "question": "Was ist die Maßeinheit für Kraft im Internationalen System?",
+          "tip": "Sie wurde nach einem berühmten Physiker benannt.",
+          "explanation": "Die Einheit der Kraft ist das Newton (N), zu Ehren von Isaac Newton.",
+          "difficulty": 1,
+          "answers": [
+            {
+              "answer": "Newton (N)",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Joule (J)",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Watt (W)",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Pascal (Pa)",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Was passiert mit der Geschwindigkeit eines Objekts im freien Fall ohne Luftwiderstand?",
+          "tip": "Denke an konstante Beschleunigung.",
+          "explanation": "Die Geschwindigkeit nimmt konstant zu aufgrund der Gravitationsbeschleunigung.",
+          "difficulty": 2,
+          "answers": [
+            {
+              "answer": "Nimmt durch Schwerkraft zu",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Nimmt ab bis zum Stillstand",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Bleibt konstant",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Variiert zufällig",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Was ist kinetische Energie?",
+          "tip": "Energie, die mit Bewegung zusammenhängt.",
+          "explanation": "Kinetische Energie ist die Energie, die ein Körper aufgrund seiner Bewegung besitzt.",
+          "difficulty": 1,
+          "answers": [
+            {
+              "answer": "Energie der Bewegung",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Gespeicherte Energie",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Wärmeenergie",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Elektrische Energie",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Wie lautet die Formel für Newtons zweites Gesetz?",
+          "tip": "Es verbindet Kraft, Masse und Beschleunigung.",
+          "explanation": "F = m × a (Kraft gleich Masse mal Beschleunigung).",
+          "difficulty": 2,
+          "answers": [
+            {
+              "answer": "F = m × a",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "E = m × c²",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "P = m × v",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "V = d / t",
+              "isAnswerCorrect": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
