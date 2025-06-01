@@ -2809,8 +2809,8 @@ MonoBehaviour:
   explanationTitle: {fileID: 1026158710}
   nextButton: {fileID: 1871350054}
   backButton: {fileID: 1173262986}
-  correctButtonColor: {r: 0, g: 1, b: 0.050857544, a: 1}
-  incorrectButtonColor: {r: 1, g: 0, b: 0, a: 1}
+  correctButtonColor: {r: 0.70980394, g: 0.93333334, b: 0.7254902, a: 1}
+  incorrectButtonColor: {r: 1, g: 0.6392157, b: 0.6392157, a: 1}
 --- !u!224 &1398971478
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3849,7 +3849,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -61.3859, y: -46.2909}
+  m_AnchoredPosition: {x: -61.385986, y: -46.290894}
   m_SizeDelta: {x: 561.5288, y: 454.8584}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1938797344

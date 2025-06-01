@@ -3,115 +3,10 @@
   "categories": [
     {
       "categoryID": 0,
-      "name": "Mathematics",
-      "categoryColorR": 210,
-      "categoryColorG": 35,
-      "categoryColorB": 7,
-      "questions": [
-        {
-          "question": "What is the result of 7 + 5?",
-          "tip": "Add the two numbers.",
-          "explanation": "7 + 5 = 12, as we add the values directly.",
-          "difficulty": 1,
-          "answers": [
-            {
-              "answer": "12",
-              "isAnswerCorrect": true
-            },
-            {
-              "answer": "10",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "14",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "13",
-              "isAnswerCorrect": false
-            }
-          ]
-        },
-        {
-          "question": "What is the value of x in the equation 2x - 4 = 10?",
-          "tip": "Isolate x in the equation.",
-          "explanation": "2x - 4 = 10 → 2x = 14 → x = 7.",
-          "difficulty": 2,
-          "answers": [
-            {
-              "answer": "7",
-              "isAnswerCorrect": true
-            },
-            {
-              "answer": "6",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "8",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "5",
-              "isAnswerCorrect": false
-            }
-          ]
-        },
-        {
-          "question": "What is the next number in the sequence: 2, 4, 8, 16, ...?",
-          "tip": "Each number is double the previous one.",
-          "explanation": "Each term in the sequence is multiplied by 2: 16 x 2 = 32.",
-          "difficulty": 1,
-          "answers": [
-            {
-              "answer": "32",
-              "isAnswerCorrect": true
-            },
-            {
-              "answer": "24",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "30",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "20",
-              "isAnswerCorrect": false
-            }
-          ]
-        },
-        {
-          "question": "What is the formula for the area of a circle?",
-          "tip": "Use the radius (r) and the constant π.",
-          "explanation": "The area of a circle is given by A = πr².",
-          "difficulty": 2,
-          "answers": [
-            {
-              "answer": "A = πr²",
-              "isAnswerCorrect": true
-            },
-            {
-              "answer": "A = 2πr",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "A = πd",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "A = r²",
-              "isAnswerCorrect": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "categoryID": 1,
       "name": "Science",
-      "categoryColorR": 7,
-      "categoryColorG": 219,
-      "categoryColorB": 60,
+      "categoryColorR": 181,
+      "categoryColorG": 238,
+      "categoryColorB": 185,
       "questions": [
         {
           "question": "What is the process by which plants produce their food?",
@@ -212,11 +107,11 @@
       ]
     },
     {
-      "categoryID": 2,
+      "categoryID": 1,
       "name": "History",
-      "categoryColorR": 219,
-      "categoryColorG": 194,
-      "categoryColorB": 7,
+      "categoryColorR": 255,
+      "categoryColorG": 163,
+      "categoryColorB": 163,
       "questions": [
         {
           "question": "Who was the first president of Brazil?",
@@ -317,11 +212,11 @@
       ]
     },
     {
-      "categoryID": 3,
+      "categoryID": 2,
       "name": "Portuguese",
-      "categoryColorR": 7,
-      "categoryColorG": 194,
-      "categoryColorB": 219,
+      "categoryColorR": 173,
+      "categoryColorG": 223,
+      "categoryColorB": 238,
       "questions": [
         {
           "question": "What is the plural of 'cão' (dog)?",
@@ -422,11 +317,11 @@
       ]
     },
     {
-      "categoryID": 4,
+      "categoryID": 3,
       "name": "Geography",
-      "categoryColorR": 219,
-      "categoryColorG": 106,
-      "categoryColorB": 7,
+      "categoryColorR": 251,
+      "categoryColorG": 206,
+      "categoryColorB": 160,
       "questions": [
         {
           "question": "What is the largest continent in the world?",
@@ -520,111 +415,6 @@
             },
             {
               "answer": "Salvador",
-              "isAnswerCorrect": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "categoryID": 5,
-      "name": "Physics",
-      "categoryColorR": 7,
-      "categoryColorG": 7,
-      "categoryColorB": 219,
-      "questions": [
-        {
-          "question": "What is the unit of measurement for force in the International System?",
-          "tip": "It was named after a famous physicist.",
-          "explanation": "The unit of force is the Newton (N), in honor of Isaac Newton.",
-          "difficulty": 1,
-          "answers": [
-            {
-              "answer": "Newton (N)",
-              "isAnswerCorrect": true
-            },
-            {
-              "answer": "Joule (J)",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "Watt (W)",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "Pascal (Pa)",
-              "isAnswerCorrect": false
-            }
-          ]
-        },
-        {
-          "question": "What happens to the velocity of an object in free fall in the absence of air resistance?",
-          "tip": "Think about constant acceleration.",
-          "explanation": "Velocity increases constantly due to gravitational acceleration.",
-          "difficulty": 2,
-          "answers": [
-            {
-              "answer": "Increases due to gravity",
-              "isAnswerCorrect": true
-            },
-            {
-              "answer": "Decreases until it stops",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "Remains constant",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "Varies randomly",
-              "isAnswerCorrect": false
-            }
-          ]
-        },
-        {
-          "question": "What is kinetic energy?",
-          "tip": "Energy related to movement.",
-          "explanation": "Kinetic energy is the energy that a body possesses due to its motion.",
-          "difficulty": 1,
-          "answers": [
-            {
-              "answer": "Energy of movement",
-              "isAnswerCorrect": true
-            },
-            {
-              "answer": "Stored energy",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "Thermal energy",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "Electrical energy",
-              "isAnswerCorrect": false
-            }
-          ]
-        },
-        {
-          "question": "What is the formula for Newton's second law?",
-          "tip": "It relates force, mass and acceleration.",
-          "explanation": "F = m × a (force equals mass times acceleration).",
-          "difficulty": 2,
-          "answers": [
-            {
-              "answer": "F = m × a",
-              "isAnswerCorrect": true
-            },
-            {
-              "answer": "E = m × c²",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "P = m × v",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "V = d / t",
               "isAnswerCorrect": false
             }
           ]
