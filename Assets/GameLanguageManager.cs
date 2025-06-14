@@ -31,21 +31,31 @@ public class GameLanguageManager : MonoBehaviour
     [Header("Pagination Buttons")]
     [SerializeField] private Button paginationNextButton;
     [SerializeField] private Button paginationPreviousButton;
+    
+    [Header("Score Menu Stuff")]
+    [SerializeField] private TMP_Text submitAnswersButton;
+    [SerializeField] private TMP_Text scoreMenuTitle;
+    [SerializeField] private TMP_Text scoreInputFieldPlaseHolderText;
+    [SerializeField] private TMP_Text addPlayerButton;
     private void Start()
     {
         
         dataLoader = FindAnyObjectByType<DataLoader>();
         
-        languageMenuTitle.text = languageList[currentLanguageIndex].menuLanguage.languageMenuTitle;
-        languageMenuButtonTitle.text = languageList[currentLanguageIndex].menuLanguage.languageMenuButton;
-        languageMenuName.text = languageList[currentLanguageIndex].name;
-        languageMenuImage.sprite = dataLoader.LoadSprite(languageList[currentLanguageIndex].imageFileName);
+        languageMenuTitle.text = gameLanguageData.languageList[currentLanguageIndex].menuLanguage.languageMenuTitle;
+        languageMenuButtonTitle.text = gameLanguageData.languageList[currentLanguageIndex].menuLanguage.languageMenuButton;
+        languageMenuName.text = gameLanguageData.languageList[currentLanguageIndex].name;
+        languageMenuImage.sprite = dataLoader.LoadSprite(gameLanguageData.languageList[currentLanguageIndex].imageFileName);
         
-        gameTitle.text = languageList[currentLanguageIndex].menuLanguage.gameTitle;
-        mainMenuButtonTitle.text = languageList[currentLanguageIndex].menuLanguage.mainMenuButton;
-        tipButtonTitle.text = languageList[currentLanguageIndex].menuLanguage.tipButton;
-        
-        
+        gameTitle.text = gameLanguageData.languageList[currentLanguageIndex].menuLanguage.gameTitle;
+        mainMenuButtonTitle.text = gameLanguageData.languageList[currentLanguageIndex].menuLanguage.mainMenuButton;
+        tipButtonTitle.text = gameLanguageData.languageList[currentLanguageIndex].menuLanguage.tipButton;
+
+        submitAnswersButton.text = gameLanguageData.languageList[currentLanguageIndex].menuLanguage.submitButton;
+        scoreMenuTitle.text = gameLanguageData.languageList[currentLanguageIndex].menuLanguage.scoreTitle;
+        scoreInputFieldPlaseHolderText.text = gameLanguageData.languageList[currentLanguageIndex].menuLanguage.playerInputFieldText;
+        addPlayerButton.text = gameLanguageData.languageList[currentLanguageIndex].menuLanguage.addPlayerButton;
+        ApplyLanguageToGame();
     }
 
     public void SetDefaultLanguage()
@@ -136,6 +146,11 @@ public class GameLanguageManager : MonoBehaviour
         gameTitle.text = languageList[currentLanguageIndex].menuLanguage.gameTitle;
         mainMenuButtonTitle.text = languageList[currentLanguageIndex].menuLanguage.mainMenuButton;
         tipButtonTitle.text = languageList[currentLanguageIndex].menuLanguage.tipButton;
+        
+        submitAnswersButton.text = languageList[currentLanguageIndex].menuLanguage.submitButton;
+        scoreMenuTitle.text = languageList[currentLanguageIndex].menuLanguage.scoreTitle;
+        scoreInputFieldPlaseHolderText.text = languageList[currentLanguageIndex].menuLanguage.playerInputFieldText;
+        addPlayerButton.text = languageList[currentLanguageIndex].menuLanguage.addPlayerButton;
         
         dataLoader.LoadQuizData();
         

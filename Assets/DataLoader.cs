@@ -31,6 +31,15 @@ public class DataLoader : MonoBehaviour
     
     [SerializeField] public LanguageDataStructure.LanguageData languageData;
     [SerializeField] GameLanguageManager gameLanguageManager;
+    
+    [Header("ScoreBoard Data")]
+    private string scoreBoardDataFilePath;
+    
+    [SerializeField] private string scoreBoardDataFileName = "scoreBoardData.json";
+    
+    [SerializeField] public ScoreBoardDataStructure.ScoreBoardData scoreBoardData;
+    [SerializeField] ScoreboardHolder scoreboardHolder;
+    
     bool isRunningInInspector = false;
     private void Awake()
     {
@@ -68,16 +77,20 @@ public class DataLoader : MonoBehaviour
             gameLanguageManager.gameLanguageData = languageData;
            
             gameLanguageManager.SetDefaultLanguage();
-           
+
             
             
             defaultQuizDataFileName = fileName + "_en.json";
+            
+            
+            
             
             string newFileName = fileName + gameLanguageManager.currentLanguage.languageID + ".json";
             quizDataFilePath = Path.Combine(dataFolderPath, newFileName);
             
             CheckIfQuizDataFileExists();
             CheckAndSaveLocalizationImages();
+            LoadScoreboardData();
         }
     }
 
@@ -108,9 +121,6 @@ public class DataLoader : MonoBehaviour
             File.WriteAllText(languageDataFilePath, languageFile.text);
             languageData = JsonUtility.FromJson<LanguageDataStructure.LanguageData>(languageFile.text);
         }
-
-        
-
     }
     
     void CheckIfQuizDataFileExists()
@@ -173,6 +183,24 @@ public class DataLoader : MonoBehaviour
             quizData = JsonUtility.FromJson<JsonDataStructure.JsonData>(json);
         }
     }
+    void LoadScoreboardData()
+    {
+        string scoreboardPath = Path.Combine(dataFolderPath, scoreBoardDataFileName);
+        if (File.Exists(scoreboardPath))
+        {
+            string json = File.ReadAllText(scoreboardPath);
+            scoreboardHolder.scoreBoardData = JsonUtility.FromJson<ScoreBoardDataStructure.ScoreBoardData>(json);
+        }
+    }
+
+    public void SaveScoreBoardData(ScoreBoardDataStructure.ScoreBoardData scoreData)
+    {
+        string scoreboardPath = Path.Combine(dataFolderPath, scoreBoardDataFileName);
+        string json = JsonUtility.ToJson(scoreData);
+        
+        File.WriteAllText(scoreboardPath, json);
+    }
+    
     
     public Sprite LoadSprite(string spriteName)
     {
@@ -192,6 +220,8 @@ public class DataLoader : MonoBehaviour
         return null;
     }
 
+   
+    
     public void CheckAndSaveLocalizationImages()
     {
         foreach (Sprite sprite in languageImages)

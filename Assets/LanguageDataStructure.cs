@@ -27,5 +27,9 @@ public class LanguageDataStructure : MonoBehaviour
         public string languageMenuButton;
         public string mainMenuButton;
         public string tipButton;
+        public string submitButton;
+        public string scoreTitle;
+        public string playerInputFieldText;
+        public string addPlayerButton;
     }
 }

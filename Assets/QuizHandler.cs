@@ -41,9 +41,14 @@ public class QuizHandler : MonoBehaviour
     [Header("Skip Buttons")]
     [SerializeField] private Button nextButton;
     [SerializeField] private Button backButton;
+    [SerializeField] private GameObject submitButton;
     
+    [Header("Colors")]
     [SerializeField] Color correctButtonColor;
     [SerializeField] Color incorrectButtonColor;
+    
+    [Header("Refereces")]
+    [SerializeField] ScoreTracker scoreTracker;
     
     private void Awake()
     {
@@ -99,6 +104,9 @@ public class QuizHandler : MonoBehaviour
         
         //Update UI Panel
         backgroundPanelImage.color = new Color(gameDataHolder.currentCategory.categoryColorR/255f, gameDataHolder.currentCategory.categoryColorG / 255f, gameDataHolder.currentCategory.categoryColorB / 255f);
+        
+        scoreTracker.maxScore = questionsList.Count;
+        scoreTracker.currentScore = 0;
     }
 
     private void OnDisable()
@@ -184,10 +192,14 @@ public class QuizHandler : MonoBehaviour
         if (currentQuestionIndex >= maxIndex)
         {
             nextButton.interactable = false;
+            nextButton.gameObject.SetActive(false);
+            submitButton.SetActive(true);
         }
         else
         {
             nextButton.interactable = true;
+            nextButton.gameObject.SetActive(true);
+            submitButton.SetActive(false);
         }
         
         
@@ -217,6 +229,7 @@ public class QuizHandler : MonoBehaviour
         {
             Debug.Log("Correct!!!");
             answerResponseValueList[currentQuestionIndex] = 1;
+            scoreTracker.currentScore++;
         }
         else
         {

@@ -9,7 +9,11 @@
         "languageMenuTitle": "Language",
         "languageMenuButton": "Apply",
         "mainMenuButton": "Main Menu",
-        "tipButton": "Need a Tip?"
+        "tipButton": "Need a Tip?",
+        "submitButton": "Submit Answers",
+        "scoreTitle": "Score",
+        "playerInputFieldText": "Insert Name",
+        "addPlayerButton": "Add Player"
       }
     },
     {
@@ -21,7 +25,11 @@
         "languageMenuTitle": "Idioma",
         "languageMenuButton": "Aplicar",
         "mainMenuButton": "Menu Incial",
-        "tipButton": "Dica?"
+        "tipButton": "Dica?",
+        "submitButton": "Submeter Resultado",
+        "scoreTitle": "Pontuação",
+        "playerInputFieldText": "Inserir Nome",
+        "addPlayerButton": "Adicionar Jogador"
       }
     },
     {
@@ -33,7 +41,11 @@
         "languageMenuTitle": "não sei german",
         "languageMenuButton": "nsei german",
         "mainMenuButton": "não sei german",
-        "tipButton": "não sei german"
+        "tipButton": "não sei german",
+        "submitButton": "Submeter Resultado",
+        "scoreTitle": "Pontuação",
+        "playerInputFieldText": "Inserir Nome",
+        "addPlayerButton": "Adicionar Jogador"
       }
     }
   ]
