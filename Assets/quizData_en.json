@@ -12,7 +12,7 @@
           "question": "What is the process by which plants produce their food?",
           "tip": "Think about sunlight and chlorophyll.",
           "explanation": "Plants use photosynthesis to convert sunlight into energy.",
-          "difficulty": 1,
+          "difficulty": 0,
           "answers": [
             {
               "answer": "Photosynthesis",
@@ -33,25 +33,49 @@
           ]
         },
         {
-          "question": "What is the chemical element represented by the symbol 'O'?",
-          "tip": "It's essential for human breathing.",
-          "explanation": "The symbol 'O' represents oxygen, fundamental for many living beings.",
-          "difficulty": 2,
+          "question": "What planet is known as the Red Planet?",
+          "tip": "It's named after the Roman god of war.",
+          "explanation": "Mars is often called the Red Planet due to its reddish appearance.",
+          "difficulty": 0,
           "answers": [
             {
-              "answer": "Oxygen",
+              "answer": "Mars",
               "isAnswerCorrect": true
             },
             {
-              "answer": "Gold",
+              "answer": "Venus",
               "isAnswerCorrect": false
             },
             {
-              "answer": "Ozone",
+              "answer": "Jupiter",
               "isAnswerCorrect": false
             },
             {
-              "answer": "Osmium",
+              "answer": "Saturn",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "What is H2O more commonly known as?",
+          "tip": "You drink it every day.",
+          "explanation": "H2O is the chemical formula for water.",
+          "difficulty": 0,
+          "answers": [
+            {
+              "answer": "Water",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Hydrogen peroxide",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Oxygen",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Salt",
               "isAnswerCorrect": false
             }
           ]
@@ -60,7 +84,7 @@
           "question": "What is the largest organ of the human body?",
           "tip": "It's the organ that protects the body from the external environment.",
           "explanation": "The skin is the largest organ of the human body.",
-          "difficulty": 1,
+          "difficulty": 0,
           "answers": [
             {
               "answer": "Skin",
@@ -81,8 +105,8 @@
           ]
         },
         {
-          "question": "Which of the following is an essential gas for human breathing?",
-          "tip": "It's necessary for burning nutrients in the body.",
+          "question": "Which gas do humans need to breathe?",
+          "tip": "It's necessary for burning nutrients.",
           "explanation": "Oxygen is the essential gas for human breathing.",
           "difficulty": 1,
           "answers": [
@@ -95,11 +119,131 @@
               "isAnswerCorrect": false
             },
             {
-              "answer": "Carbon dioxide",
+              "answer": "Hydrogen",
               "isAnswerCorrect": false
             },
             {
-              "answer": "Hydrogen",
+              "answer": "Carbon dioxide",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "What organelle is known as the powerhouse of the cell?",
+          "tip": "It's where energy is produced.",
+          "explanation": "The mitochondrion generates energy for the cell.",
+          "difficulty": 1,
+          "answers": [
+            {
+              "answer": "Mitochondrion",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Nucleus",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Ribosome",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Chloroplast",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "What type of energy is stored in food?",
+          "tip": "It's a form of potential energy.",
+          "explanation": "Chemical energy is stored in the bonds of food molecules.",
+          "difficulty": 1,
+          "answers": [
+            {
+              "answer": "Chemical energy",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Kinetic energy",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Thermal energy",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Nuclear energy",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "What is the chemical element represented by the symbol 'O'?",
+          "tip": "It's essential for human breathing.",
+          "explanation": "The symbol 'O' represents oxygen, fundamental for many living beings.",
+          "difficulty": 1,
+          "answers": [
+            {
+              "answer": "Oxygen",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Gold",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Ozone",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Osmium",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "What phenomenon causes light to bend when it passes through water?",
+          "tip": "It happens when light changes speed between mediums.",
+          "explanation": "Refraction is the bending of light when it passes between substances of different densities.",
+          "difficulty": 2,
+          "answers": [
+            {
+              "answer": "Refraction",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Reflection",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Diffraction",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Absorption",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Which scientist developed the theory of general relativity?",
+          "tip": "Think of E = mc².",
+          "explanation": "Albert Einstein proposed the theory of general relativity in 1915.",
+          "difficulty": 2,
+          "answers": [
+            {
+              "answer": "Albert Einstein",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Isaac Newton",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Galileo Galilei",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Marie Curie",
               "isAnswerCorrect": false
             }
           ]
@@ -108,103 +252,247 @@
     },
     {
       "categoryID": 1,
-      "name": "History",
+      "name": "Math",
       "categoryColorR": 255,
-      "categoryColorG": 163,
-      "categoryColorB": 163,
+      "categoryColorG": 223,
+      "categoryColorB": 186,
       "questions": [
         {
-          "question": "Who was the first president of Brazil?",
-          "tip": "He governed right after the Proclamation of the Republic.",
-          "explanation": "Deodoro da Fonseca was the first president of Brazil.",
-          "difficulty": 1,
+          "question": "What is 7 + 5?",
+          "tip": "Add the two numbers together.",
+          "explanation": "7 + 5 equals 12.",
+          "difficulty": 0,
           "answers": [
             {
-              "answer": "Deodoro da Fonseca",
+              "answer": "12",
               "isAnswerCorrect": true
             },
             {
-              "answer": "Getúlio Vargas",
+              "answer": "11",
               "isAnswerCorrect": false
             },
             {
-              "answer": "Juscelino Kubitschek",
+              "answer": "13",
               "isAnswerCorrect": false
             },
             {
-              "answer": "Dom Pedro II",
+              "answer": "10",
               "isAnswerCorrect": false
             }
           ]
         },
         {
-          "question": "In what year did the Proclamation of the Republic happen in Brazil?",
-          "tip": "It was at the end of the 19th century.",
-          "explanation": "The Proclamation of the Republic occurred in 1889.",
+          "question": "What is 15% of 200?",
+          "tip": "Multiply 200 by 0.15.",
+          "explanation": "15% of 200 is 30.",
+          "difficulty": 0,
+          "answers": [
+            {
+              "answer": "30",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "20",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "25",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "35",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "What do you call a polygon with eight sides?",
+          "tip": "Often seen in stop signs.",
+          "explanation": "A polygon with eight sides is called an octagon.",
+          "difficulty": 0,
+          "answers": [
+            {
+              "answer": "Octagon",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Hexagon",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Pentagon",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Heptagon",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "What is the square root of 144?",
+          "tip": "12 × 12 equals this number.",
+          "explanation": "The square root of 144 is 12.",
+          "difficulty": 1,
+          "answers": [
+            {
+              "answer": "12",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "11",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "10",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "14",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "What is the value of π (pi) approximately?",
+          "tip": "It starts with 3.14.",
+          "explanation": "Pi is approximately 3.14.",
+          "difficulty": 1,
+          "answers": [
+            {
+              "answer": "3.14",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "2.72",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "1.61",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "4.13",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "What is the next prime number after 7?",
+          "tip": "Only divisible by 1 and itself.",
+          "explanation": "The next prime after 7 is 11.",
+          "difficulty": 1,
+          "answers": [
+            {
+              "answer": "11",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "9",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "10",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "13",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "What is the derivative of x²?",
+          "tip": "Use the power rule.",
+          "explanation": "The derivative of x² is 2x.",
           "difficulty": 2,
           "answers": [
             {
-              "answer": "1889",
+              "answer": "2x",
               "isAnswerCorrect": true
             },
             {
-              "answer": "1822",
+              "answer": "x",
               "isAnswerCorrect": false
             },
             {
-              "answer": "1500",
+              "answer": "x²",
               "isAnswerCorrect": false
             },
             {
-              "answer": "1930",
+              "answer": "1",
               "isAnswerCorrect": false
             }
           ]
         },
         {
-          "question": "What was the name of the emperor of Brazil during independence?",
-          "tip": "He declared independence on the banks of the Ipiranga river.",
-          "explanation": "Dom Pedro I was the emperor who proclaimed Brazil's independence.",
+          "question": "Solve for x: 2x + 3 = 11",
+          "tip": "Subtract then divide.",
+          "explanation": "2x = 8, so x = 4.",
           "difficulty": 1,
           "answers": [
             {
-              "answer": "Dom Pedro I",
+              "answer": "4",
               "isAnswerCorrect": true
             },
             {
-              "answer": "Dom Pedro II",
+              "answer": "3",
               "isAnswerCorrect": false
             },
             {
-              "answer": "Dom João VI",
+              "answer": "5",
               "isAnswerCorrect": false
             },
             {
-              "answer": "Getúlio Vargas",
+              "answer": "6",
               "isAnswerCorrect": false
             }
           ]
         },
         {
-          "question": "Which war became known as the 'War of the Ragamuffins'?",
-          "tip": "It was a revolt in southern Brazil in the 19th century.",
-          "explanation": "The War of the Ragamuffins was a revolt in Rio Grande do Sul between 1835 and 1845.",
-          "difficulty": 3,
+          "question": "What is 9 × 6?",
+          "tip": "Multiply the two numbers.",
+          "explanation": "9 × 6 equals 54.",
+          "difficulty": 0,
           "answers": [
             {
-              "answer": "Farroupilha Revolution",
+              "answer": "54",
               "isAnswerCorrect": true
             },
             {
-              "answer": "Paraguayan War",
+              "answer": "45",
               "isAnswerCorrect": false
             },
             {
-              "answer": "Revolution of 1930",
+              "answer": "63",
               "isAnswerCorrect": false
             },
             {
-              "answer": "War of the Emboabas",
+              "answer": "48",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "What’s the slope of the line y = 3x + 5?",
+          "tip": "y = mx + b — slope is m.",
+          "explanation": "The slope (m) is 3.",
+          "difficulty": 2,
+          "answers": [
+            {
+              "answer": "3",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "5",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "8",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "-3",
               "isAnswerCorrect": false
             }
           ]
@@ -213,208 +501,247 @@
     },
     {
       "categoryID": 2,
-      "name": "Portuguese",
-      "categoryColorR": 173,
-      "categoryColorG": 223,
-      "categoryColorB": 238,
+      "name": "English",
+      "categoryColorR": 204,
+      "categoryColorG": 229,
+      "categoryColorB": 255,
       "questions": [
         {
-          "question": "What is the plural of 'cão' (dog)?",
-          "tip": "Plural of domestic animals.",
-          "explanation": "The correct plural is 'cães' (dogs).",
-          "difficulty": 1,
+          "question": "Which word is a synonym of 'happy'?",
+          "tip": "Think of emotions related to joy.",
+          "explanation": "'Joyful' is a synonym of 'happy'.",
+          "difficulty": 0,
           "answers": [
             {
-              "answer": "Cães",
+              "answer": "Joyful",
               "isAnswerCorrect": true
             },
             {
-              "answer": "Cãos",
+              "answer": "Angry",
               "isAnswerCorrect": false
             },
             {
-              "answer": "Cãoses",
+              "answer": "Sad",
               "isAnswerCorrect": false
             },
             {
-              "answer": "Cãeses",
+              "answer": "Tired",
               "isAnswerCorrect": false
             }
           ]
         },
         {
-          "question": "What is the function of the comma in the sentence: 'Fui ao mercado, comprei frutas e voltei para casa' (I went to the market, bought fruits and returned home)?",
-          "tip": "Separation of actions.",
-          "explanation": "The comma separates independent clauses in the sentence.",
+          "question": "Which is the correct past tense of 'run'?",
+          "tip": "Irregular verb alert!",
+          "explanation": "The past tense of 'run' is 'ran'.",
+          "difficulty": 0,
+          "answers": [
+            {
+              "answer": "Ran",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Runned",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Running",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Run",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Which word is an antonym of 'cold'?",
+          "tip": "Think of the opposite temperature.",
+          "explanation": "'Hot' is the antonym of 'cold'.",
+          "difficulty": 0,
+          "answers": [
+            {
+              "answer": "Hot",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Warm",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Chilly",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Cool",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Which of the following is a noun?",
+          "tip": "Refers to a person, place, or thing.",
+          "explanation": "'Table' is a noun.",
+          "difficulty": 0,
+          "answers": [
+            {
+              "answer": "Table",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Run",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Blue",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Quickly",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Which sentence uses a semicolon correctly?",
+          "tip": "Links two related clauses.",
+          "explanation": "Semicolons separate independent clauses without conjunctions.",
+          "difficulty": 1,
+          "answers": [
+            {
+              "answer": "I wanted to go; it was too late.",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "I wanted to go, it was too late.",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "I wanted; to go it was too late.",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "I wanted to go: it was too late.",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Which literary device is used in 'The wind whispered through the trees'?",
+          "tip": "Non‑human thing with human traits.",
+          "explanation": "This is personification.",
+          "difficulty": 1,
+          "answers": [
+            {
+              "answer": "Personification",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Simile",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Alliteration",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Metaphor",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "In 'She gave him a gift', what is the direct object?",
+          "tip": "What was given?",
+          "explanation": "'A gift' is the direct object.",
+          "difficulty": 1,
+          "answers": [
+            {
+              "answer": "A gift",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "She",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Him",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Gave",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Which is an example of alliteration?",
+          "tip": "Same starting sound.",
+          "explanation": "'Sally sells seashells' is alliteration.",
           "difficulty": 2,
           "answers": [
             {
-              "answer": "Separate clauses",
+              "answer": "Sally sells seashells",
               "isAnswerCorrect": true
             },
             {
-              "answer": "Indicate question",
+              "answer": "Time flies",
               "isAnswerCorrect": false
             },
             {
-              "answer": "Join words",
+              "answer": "He is as brave as a lion",
               "isAnswerCorrect": false
             },
             {
-              "answer": "Give emphasis",
+              "answer": "The wind whispered",
               "isAnswerCorrect": false
             }
           ]
         },
         {
-          "question": "Which of the sentences is correct?",
-          "tip": "Pay attention to spelling.",
-          "explanation": "'Ele vai à escola' (He goes to school) is correct because it uses the grave accent (crase).",
+          "question": "What is the comparative form of 'good'?",
+          "tip": "Irregular adjective.",
+          "explanation": "The comparative form of 'good' is 'better'.",
           "difficulty": 1,
           "answers": [
             {
-              "answer": "Ele vai à escola",
+              "answer": "Better",
               "isAnswerCorrect": true
             },
             {
-              "answer": "Ele vai a escola",
+              "answer": "More good",
               "isAnswerCorrect": false
             },
             {
-              "answer": "Ele vai há escola",
+              "answer": "Gooder",
               "isAnswerCorrect": false
             },
             {
-              "answer": "Ele vai á escola",
+              "answer": "Best",
               "isAnswerCorrect": false
             }
           ]
         },
         {
-          "question": "What is a transitive verb?",
-          "tip": "Verb that needs a complement.",
-          "explanation": "Transitive verbs need an object to complete their meaning.",
+          "question": "Which sentence is passive voice?",
+          "tip": "Subject receives the action.",
+          "explanation": "The car was driven by her. -> passive.",
           "difficulty": 2,
           "answers": [
             {
-              "answer": "Verb that needs a complement",
+              "answer": "The car was driven by her.",
               "isAnswerCorrect": true
             },
             {
-              "answer": "Verb that doesn't change",
+              "answer": "She drove the car.",
               "isAnswerCorrect": false
             },
             {
-              "answer": "Verb that indicates state",
+              "answer": "She is driving the car.",
               "isAnswerCorrect": false
             },
             {
-              "answer": "Verb that only has past tense",
-              "isAnswerCorrect": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "categoryID": 3,
-      "name": "Geography",
-      "categoryColorR": 251,
-      "categoryColorG": 206,
-      "categoryColorB": 160,
-      "questions": [
-        {
-          "question": "What is the largest continent in the world?",
-          "tip": "It's in Asia.",
-          "explanation": "Asia is the largest continent in territorial extension.",
-          "difficulty": 1,
-          "answers": [
-            {
-              "answer": "Asia",
-              "isAnswerCorrect": true
-            },
-            {
-              "answer": "Africa",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "Europe",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "America",
-              "isAnswerCorrect": false
-            }
-          ]
-        },
-        {
-          "question": "What is the name of the ocean that bathes Brazil's eastern coast?",
-          "tip": "It's the largest ocean on the planet.",
-          "explanation": "The Atlantic Ocean bathes Brazil's eastern coast.",
-          "difficulty": 2,
-          "answers": [
-            {
-              "answer": "Atlantic Ocean",
-              "isAnswerCorrect": true
-            },
-            {
-              "answer": "Pacific Ocean",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "Indian Ocean",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "Arctic Ocean",
-              "isAnswerCorrect": false
-            }
-          ]
-        },
-        {
-          "question": "What is the most populous country in the world?",
-          "tip": "It's in Asia and has the largest population.",
-          "explanation": "China is the most populous country in the world.",
-          "difficulty": 1,
-          "answers": [
-            {
-              "answer": "China",
-              "isAnswerCorrect": true
-            },
-            {
-              "answer": "India",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "United States",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "Russia",
-              "isAnswerCorrect": false
-            }
-          ]
-        },
-        {
-          "question": "What is the capital of Brazil?",
-          "tip": "Planned city built in the 1960s.",
-          "explanation": "Brasília is the capital of Brazil.",
-          "difficulty": 1,
-          "answers": [
-            {
-              "answer": "Brasília",
-              "isAnswerCorrect": true
-            },
-            {
-              "answer": "Rio de Janeiro",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "São Paulo",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "Salvador",
+              "answer": "She will drive the car.",
               "isAnswerCorrect": false
             }
           ]

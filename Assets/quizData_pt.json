@@ -1,123 +1,18 @@
 {
-  "gameTitle": "Vicno's Cool Quiz",
+  "gameTitle": "Quiz Fixe do Vicno",
   "categories": [
     {
       "categoryID": 0,
-      "name": "Matemática",
-      "categoryColorR": 210,
-      "categoryColorG": 35,
-      "categoryColorB": 7,
+      "name": "Ciências",
+      "categoryColorR": 181,
+      "categoryColorG": 238,
+      "categoryColorB": 185,
       "questions": [
         {
-          "question": "Qual é o resultado de 7 + 5?",
-          "tip": "Some os dois números.",
-          "explanation": "7 + 5 = 12, pois somamos os valores diretamente.",
-          "difficulty": 1,
-          "answers": [
-            {
-              "answer": "12",
-              "isAnswerCorrect": true
-            },
-            {
-              "answer": "10",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "14",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "13",
-              "isAnswerCorrect": false
-            }
-          ]
-        },
-        {
-          "question": "Qual é o valor de x na equação 2x - 4 = 10?",
-          "tip": "Isolando o x na equação.",
-          "explanation": "2x - 4 = 10 → 2x = 14 → x = 7.",
-          "difficulty": 2,
-          "answers": [
-            {
-              "answer": "7",
-              "isAnswerCorrect": true
-            },
-            {
-              "answer": "6",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "8",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "5",
-              "isAnswerCorrect": false
-            }
-          ]
-        },
-        {
-          "question": "Qual o próximo número na sequência: 2, 4, 8, 16, ...?",
-          "tip": "Cada número é o dobro do anterior.",
-          "explanation": "Cada termo da sequência é multiplicado por 2: 16 x 2 = 32.",
-          "difficulty": 1,
-          "answers": [
-            {
-              "answer": "32",
-              "isAnswerCorrect": true
-            },
-            {
-              "answer": "24",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "30",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "20",
-              "isAnswerCorrect": false
-            }
-          ]
-        },
-        {
-          "question": "Qual é a fórmula da área de um círculo?",
-          "tip": "Use o raio (r) e a constante π.",
-          "explanation": "A área do círculo é dada por A = πr².",
-          "difficulty": 2,
-          "answers": [
-            {
-              "answer": "A = πr²",
-              "isAnswerCorrect": true
-            },
-            {
-              "answer": "A = 2πr",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "A = πd",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "A = r²",
-              "isAnswerCorrect": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "categoryID": 1,
-      "name": "Ciencias",
-      "categoryColorR": 7,
-      "categoryColorG": 219,
-      "categoryColorB": 60,
-      "questions": [
-        {
-          "question": "Qual é o processo pelo qual as plantas produzem seu alimento?",
-          "tip": "Pense na luz solar e clorofila.",
-          "explanation": "As plantas utilizam a fotossíntese para transformar luz solar em energia.",
-          "difficulty": 1,
+          "question": "Qual é o processo pelo qual as plantas produzem o seu alimento?",
+          "tip": "Pensa na luz solar e na clorofila.",
+          "explanation": "As plantas usam a fotossíntese para converter a luz solar em energia.",
+          "difficulty": 0,
           "answers": [
             {
               "answer": "Fotossíntese",
@@ -138,25 +33,49 @@
           ]
         },
         {
-          "question": "Qual é o elemento químico representado pelo símbolo 'O'?",
-          "tip": "É essencial para a respiração humana.",
-          "explanation": "O símbolo 'O' representa o oxigênio, fundamental para muitos seres vivos.",
-          "difficulty": 2,
+          "question": "Que planeta é conhecido como o Planeta Vermelho?",
+          "tip": "Tem o nome do deus romano da guerra.",
+          "explanation": "Marte é frequentemente chamado de Planeta Vermelho devido à sua aparência avermelhada.",
+          "difficulty": 0,
           "answers": [
             {
-              "answer": "Oxigênio",
+              "answer": "Marte",
               "isAnswerCorrect": true
             },
             {
-              "answer": "Ouro",
+              "answer": "Vénus",
               "isAnswerCorrect": false
             },
             {
-              "answer": "Ozônio",
+              "answer": "Júpiter",
               "isAnswerCorrect": false
             },
             {
-              "answer": "Ósmio",
+              "answer": "Saturno",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "O que é o H2O mais vulgarmente conhecido?",
+          "tip": "Bebes isto todos os dias.",
+          "explanation": "H2O é a fórmula química da água.",
+          "difficulty": 0,
+          "answers": [
+            {
+              "answer": "Água",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Peróxido de hidrogénio",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Oxigénio",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Sal",
               "isAnswerCorrect": false
             }
           ]
@@ -165,7 +84,7 @@
           "question": "Qual é o maior órgão do corpo humano?",
           "tip": "É o órgão que protege o corpo do ambiente externo.",
           "explanation": "A pele é o maior órgão do corpo humano.",
-          "difficulty": 1,
+          "difficulty": 0,
           "answers": [
             {
               "answer": "Pele",
@@ -186,25 +105,394 @@
           ]
         },
         {
-          "question": "Qual dos seguintes é um gás essencial para a respiração dos seres humanos?",
-          "tip": "É necessário para a queima de nutrientes no corpo.",
-          "explanation": "O oxigênio é o gás essencial para a respiração humana.",
+          "question": "Que gás é que os humanos precisam para respirar?",
+          "tip": "É necessário para queimar os nutrientes.",
+          "explanation": "O oxigénio é o gás essencial para a respiração humana.",
           "difficulty": 1,
           "answers": [
             {
-              "answer": "Oxigênio",
+              "answer": "Oxigénio",
               "isAnswerCorrect": true
             },
             {
-              "answer": "Nitrogênio",
+              "answer": "Azoto",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Hidrogénio",
               "isAnswerCorrect": false
             },
             {
               "answer": "Dióxido de carbono",
               "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Que organelo é conhecido como a central energética da célula?",
+          "tip": "É onde a energia é produzida.",
+          "explanation": "A mitocôndria gera energia para a célula.",
+          "difficulty": 1,
+          "answers": [
+            {
+              "answer": "Mitocôndria",
+              "isAnswerCorrect": true
             },
             {
-              "answer": "Hidrogênio",
+              "answer": "Núcleo",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Ribossoma",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Cloroplasto",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Que tipo de energia é armazenada nos alimentos?",
+          "tip": "É uma forma de energia potencial.",
+          "explanation": "A energia química é armazenada nas ligações das moléculas dos alimentos.",
+          "difficulty": 1,
+          "answers": [
+            {
+              "answer": "Energia química",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Energia cinética",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Energia térmica",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Energia nuclear",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Qual é o elemento químico representado pelo símbolo 'O'?",
+          "tip": "É essencial para a respiração humana.",
+          "explanation": "O símbolo 'O' representa o oxigénio, fundamental para muitos seres vivos.",
+          "difficulty": 1,
+          "answers": [
+            {
+              "answer": "Oxigénio",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Ouro",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Ozono",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Ósmio",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Que fenómeno faz com que a luz se curve quando passa pela água?",
+          "tip": "Acontece quando a luz muda de velocidade entre meios.",
+          "explanation": "A refracção é a curvatura da luz quando passa entre substâncias de densidades diferentes.",
+          "difficulty": 2,
+          "answers": [
+            {
+              "answer": "Refracção",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Reflexão",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Difracção",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Absorção",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Que cientista desenvolveu a teoria da relatividade geral?",
+          "tip": "Pensa em E = mc².",
+          "explanation": "Albert Einstein propôs a teoria da relatividade geral em 1915.",
+          "difficulty": 2,
+          "answers": [
+            {
+              "answer": "Albert Einstein",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Isaac Newton",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Galileu Galilei",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Marie Curie",
+              "isAnswerCorrect": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "categoryID": 1,
+      "name": "Matemática",
+      "categoryColorR": 255,
+      "categoryColorG": 223,
+      "categoryColorB": 186,
+      "questions": [
+        {
+          "question": "Quanto é 7 + 5?",
+          "tip": "Soma os dois números.",
+          "explanation": "7 + 5 é igual a 12.",
+          "difficulty": 0,
+          "answers": [
+            {
+              "answer": "12",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "11",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "13",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "10",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Quanto é 15% de 200?",
+          "tip": "Multiplica 200 por 0,15.",
+          "explanation": "15% de 200 é 30.",
+          "difficulty": 0,
+          "answers": [
+            {
+              "answer": "30",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "20",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "25",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "35",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Como se chama um polígono com oito lados?",
+          "tip": "Frequentemente visto nos sinais de stop.",
+          "explanation": "Um polígono com oito lados chama-se octógono.",
+          "difficulty": 0,
+          "answers": [
+            {
+              "answer": "Octógono",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Hexágono",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Pentágono",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Heptágono",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Qual é a raiz quadrada de 144?",
+          "tip": "12 × 12 é igual a este número.",
+          "explanation": "A raiz quadrada de 144 é 12.",
+          "difficulty": 1,
+          "answers": [
+            {
+              "answer": "12",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "11",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "10",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "14",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Qual é o valor de π (pi) aproximadamente?",
+          "tip": "Começa com 3,14.",
+          "explanation": "Pi é aproximadamente 3,14.",
+          "difficulty": 1,
+          "answers": [
+            {
+              "answer": "3,14",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "2,72",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "1,61",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "4,13",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Qual é o próximo número primo depois de 7?",
+          "tip": "Só é divisível por 1 e por si mesmo.",
+          "explanation": "O próximo primo depois de 7 é 11.",
+          "difficulty": 1,
+          "answers": [
+            {
+              "answer": "11",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "9",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "10",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "13",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Qual é a derivada de x²?",
+          "tip": "Usa a regra da potência.",
+          "explanation": "A derivada de x² é 2x.",
+          "difficulty": 2,
+          "answers": [
+            {
+              "answer": "2x",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "x",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "x²",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "1",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Resolve para x: 2x + 3 = 11",
+          "tip": "Subtrai depois divide.",
+          "explanation": "2x = 8, portanto x = 4.",
+          "difficulty": 1,
+          "answers": [
+            {
+              "answer": "4",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "3",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "5",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "6",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Quanto é 9 × 6?",
+          "tip": "Multiplica os dois números.",
+          "explanation": "9 × 6 é igual a 54.",
+          "difficulty": 0,
+          "answers": [
+            {
+              "answer": "54",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "45",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "63",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "48",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Qual é o declive da recta y = 3x + 5?",
+          "tip": "y = mx + b — o declive é m.",
+          "explanation": "O declive (m) é 3.",
+          "difficulty": 2,
+          "answers": [
+            {
+              "answer": "3",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "5",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "8",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "-3",
               "isAnswerCorrect": false
             }
           ]
@@ -213,418 +501,247 @@
     },
     {
       "categoryID": 2,
-      "name": "História",
-      "categoryColorR": 219,
-      "categoryColorG": 194,
-      "categoryColorB": 7,
+      "name": "Português",
+      "categoryColorR": 204,
+      "categoryColorG": 229,
+      "categoryColorB": 255,
       "questions": [
         {
-          "question": "Quem foi o primeiro presidente do Brasil?",
-          "tip": "Ele governou logo após a Proclamação da República.",
-          "explanation": "Deodoro da Fonseca foi o primeiro presidente do Brasil.",
-          "difficulty": 1,
+          "question": "Qual palavra é sinónimo de 'feliz'?",
+          "tip": "Pensa em emoções relacionadas com alegria.",
+          "explanation": "'Alegre' é sinónimo de 'feliz'.",
+          "difficulty": 0,
           "answers": [
             {
-              "answer": "Deodoro da Fonseca",
+              "answer": "Alegre",
               "isAnswerCorrect": true
             },
             {
-              "answer": "Getúlio Vargas",
+              "answer": "Zangado",
               "isAnswerCorrect": false
             },
             {
-              "answer": "Juscelino Kubitschek",
+              "answer": "Triste",
               "isAnswerCorrect": false
             },
             {
-              "answer": "Dom Pedro II",
+              "answer": "Cansado",
               "isAnswerCorrect": false
             }
           ]
         },
         {
-          "question": "Em que ano aconteceu a Proclamação da República no Brasil?",
-          "tip": "Foi no final do século XIX.",
-          "explanation": "A Proclamação da República ocorreu em 1889.",
+          "question": "Qual é o pretérito perfeito correcto de 'correr'?",
+          "tip": "Verbo regular!",
+          "explanation": "O pretérito perfeito de 'correr' é 'correu'.",
+          "difficulty": 0,
+          "answers": [
+            {
+              "answer": "Correu",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Corria",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Correndo",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Correr",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Qual palavra é antónimo de 'frio'?",
+          "tip": "Pensa na temperatura oposta.",
+          "explanation": "'Quente' é o antónimo de 'frio'.",
+          "difficulty": 0,
+          "answers": [
+            {
+              "answer": "Quente",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Morno",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Fresco",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Gelado",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Qual das seguintes é um substantivo?",
+          "tip": "Refere-se a uma pessoa, lugar ou coisa.",
+          "explanation": "'Mesa' é um substantivo.",
+          "difficulty": 0,
+          "answers": [
+            {
+              "answer": "Mesa",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Correr",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Azul",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Rapidamente",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Qual frase usa o ponto e vírgula correctamente?",
+          "tip": "Liga duas orações relacionadas.",
+          "explanation": "O ponto e vírgula separa orações independentes sem conjunções.",
+          "difficulty": 1,
+          "answers": [
+            {
+              "answer": "Queria ir; era demasiado tarde.",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Queria ir, era demasiado tarde.",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Queria; ir era demasiado tarde.",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Queria ir: era demasiado tarde.",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Que figura de estilo é usada em 'O vento sussurrava pelas árvores'?",
+          "tip": "Coisa não-humana com características humanas.",
+          "explanation": "Isto é personificação.",
+          "difficulty": 1,
+          "answers": [
+            {
+              "answer": "Personificação",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Comparação",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Aliteração",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Metáfora",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Em 'Ela deu-lhe uma prenda', qual é o complemento directo?",
+          "tip": "O que foi dado?",
+          "explanation": "'Uma prenda' é o complemento directo.",
+          "difficulty": 1,
+          "answers": [
+            {
+              "answer": "Uma prenda",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Ela",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Lhe",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Deu",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Qual é um exemplo de aliteração?",
+          "tip": "O mesmo som inicial.",
+          "explanation": "'Sete sapos saltaram' é aliteração.",
           "difficulty": 2,
           "answers": [
             {
-              "answer": "1889",
+              "answer": "Sete sapos saltaram",
               "isAnswerCorrect": true
             },
             {
-              "answer": "1822",
+              "answer": "O tempo voa",
               "isAnswerCorrect": false
             },
             {
-              "answer": "1500",
+              "answer": "Ele é corajoso como um leão",
               "isAnswerCorrect": false
             },
             {
-              "answer": "1930",
+              "answer": "O vento sussurrava",
               "isAnswerCorrect": false
             }
           ]
         },
         {
-          "question": "Qual era o nome do imperador do Brasil durante a independência?",
-          "tip": "Ele declarou a independência às margens do rio Ipiranga.",
-          "explanation": "Dom Pedro I foi o imperador que proclamou a independência do Brasil.",
+          "question": "Qual é o grau comparativo de superioridade de 'bom'?",
+          "tip": "Adjectivo irregular.",
+          "explanation": "O comparativo de superioridade de 'bom' é 'melhor'.",
           "difficulty": 1,
           "answers": [
             {
-              "answer": "Dom Pedro I",
+              "answer": "Melhor",
               "isAnswerCorrect": true
             },
             {
-              "answer": "Dom Pedro II",
+              "answer": "Mais bom",
               "isAnswerCorrect": false
             },
             {
-              "answer": "Dom João VI",
+              "answer": "Bonzinho",
               "isAnswerCorrect": false
             },
             {
-              "answer": "Getúlio Vargas",
+              "answer": "Óptimo",
               "isAnswerCorrect": false
             }
           ]
         },
         {
-          "question": "Qual guerra ficou conhecida como 'Guerra dos Farrapos'?",
-          "tip": "Foi uma revolta no sul do Brasil no século XIX.",
-          "explanation": "A Guerra dos Farrapos foi uma revolta no Rio Grande do Sul entre 1835 e 1845.",
-          "difficulty": 3,
-          "answers": [
-            {
-              "answer": "Revolução Farroupilha",
-              "isAnswerCorrect": true
-            },
-            {
-              "answer": "Guerra do Paraguai",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "Revolução de 1930",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "Guerra dos Emboabas",
-              "isAnswerCorrect": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "categoryID": 3,
-      "name": "Portugues",
-      "categoryColorR": 7,
-      "categoryColorG": 194,
-      "categoryColorB": 219,
-      "questions": [
-        {
-          "question": "Qual é o plural de 'cão'?",
-          "tip": "Plural de animais domésticos.",
-          "explanation": "O plural correto é 'cães'.",
-          "difficulty": 1,
-          "answers": [
-            {
-              "answer": "Cães",
-              "isAnswerCorrect": true
-            },
-            {
-              "answer": "Cãos",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "Cãoses",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "Cãeses",
-              "isAnswerCorrect": false
-            }
-          ]
-        },
-        {
-          "question": "Qual é a função da vírgula na frase: 'Fui ao mercado, comprei frutas e voltei para casa'?",
-          "tip": "Separação de ações.",
-          "explanation": "A vírgula separa orações independentes na frase.",
+          "question": "Qual frase está na voz passiva?",
+          "tip": "O sujeito recebe a acção.",
+          "explanation": "O carro foi conduzido por ela. -> voz passiva.",
           "difficulty": 2,
           "answers": [
             {
-              "answer": "Separar orações",
+              "answer": "O carro foi conduzido por ela.",
               "isAnswerCorrect": true
             },
             {
-              "answer": "Indicar pergunta",
+              "answer": "Ela conduziu o carro.",
               "isAnswerCorrect": false
             },
             {
-              "answer": "Unir palavras",
+              "answer": "Ela está a conduzir o carro.",
               "isAnswerCorrect": false
             },
             {
-              "answer": "Dar ênfase",
-              "isAnswerCorrect": false
-            }
-          ]
-        },
-        {
-          "question": "Qual das frases está correta?",
-          "tip": "Preste atenção na ortografia.",
-          "explanation": "'Ele vai à escola' está correta porque usa crase.",
-          "difficulty": 1,
-          "answers": [
-            {
-              "answer": "Ele vai à escola",
-              "isAnswerCorrect": true
-            },
-            {
-              "answer": "Ele vai a escola",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "Ele vai há escola",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "Ele vai á escola",
-              "isAnswerCorrect": false
-            }
-          ]
-        },
-        {
-          "question": "O que é um verbo transitivo?",
-          "tip": "Verbo que necessita de complemento.",
-          "explanation": "Verbos transitivos precisam de objeto para completar seu sentido.",
-          "difficulty": 2,
-          "answers": [
-            {
-              "answer": "Verbo que precisa de complemento",
-              "isAnswerCorrect": true
-            },
-            {
-              "answer": "Verbo que não muda",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "Verbo que indica estado",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "Verbo que só tem passado",
-              "isAnswerCorrect": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "categoryID": 4,
-      "name": "Geografia",
-      "categoryColorR": 219,
-      "categoryColorG": 106,
-      "categoryColorB": 7,
-      "questions": [
-        {
-          "question": "Qual é o maior continente do mundo?",
-          "tip": "Fica na Ásia.",
-          "explanation": "A Ásia é o maior continente em extensão territorial.",
-          "difficulty": 1,
-          "answers": [
-            {
-              "answer": "Ásia",
-              "isAnswerCorrect": true
-            },
-            {
-              "answer": "África",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "Europa",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "América",
-              "isAnswerCorrect": false
-            }
-          ]
-        },
-        {
-          "question": "Qual o nome do oceano que banha a costa leste do Brasil?",
-          "tip": "É o maior oceano do planeta.",
-          "explanation": "O Oceano Atlântico banha a costa leste do Brasil.",
-          "difficulty": 2,
-          "answers": [
-            {
-              "answer": "Oceano Atlântico",
-              "isAnswerCorrect": true
-            },
-            {
-              "answer": "Oceano Pacífico",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "Oceano Índico",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "Oceano Ártico",
-              "isAnswerCorrect": false
-            }
-          ]
-        },
-        {
-          "question": "Qual é o país mais populoso do mundo?",
-          "tip": "Fica na Ásia e tem a maior população.",
-          "explanation": "A China é o país mais populoso do mundo.",
-          "difficulty": 1,
-          "answers": [
-            {
-              "answer": "China",
-              "isAnswerCorrect": true
-            },
-            {
-              "answer": "Índia",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "Estados Unidos",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "Rússia",
-              "isAnswerCorrect": false
-            }
-          ]
-        },
-        {
-          "question": "Qual é a capital do Brasil?",
-          "tip": "Cidade planejada construída na década de 1960.",
-          "explanation": "Brasília é a capital do Brasil.",
-          "difficulty": 1,
-          "answers": [
-            {
-              "answer": "Brasília",
-              "isAnswerCorrect": true
-            },
-            {
-              "answer": "Rio de Janeiro",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "São Paulo",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "Salvador",
-              "isAnswerCorrect": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "categoryID": 5,
-      "name": "Fisica",
-      "categoryColorR": 7,
-      "categoryColorG": 7,
-      "categoryColorB": 219,
-      "questions": [
-        {
-          "question": "Qual é a unidade de medida da força no Sistema Internacional?",
-          "tip": "Foi nomeada em homenagem a um físico famoso.",
-          "explanation": "A unidade de força é o Newton (N), em homenagem a Isaac Newton.",
-          "difficulty": 1,
-          "answers": [
-            {
-              "answer": "Newton (N)",
-              "isAnswerCorrect": true
-            },
-            {
-              "answer": "Joule (J)",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "Watt (W)",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "Pascal (Pa)",
-              "isAnswerCorrect": false
-            }
-          ]
-        },
-        {
-          "question": "O que acontece com a velocidade de um objeto em queda livre na ausência de resistência do ar?",
-          "tip": "Pense na aceleração constante.",
-          "explanation": "A velocidade aumenta constantemente devido à aceleração da gravidade.",
-          "difficulty": 2,
-          "answers": [
-            {
-              "answer": "Aumenta devido à gravidade",
-              "isAnswerCorrect": true
-            },
-            {
-              "answer": "Diminui até parar",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "Permanece constante",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "Varia aleatoriamente",
-              "isAnswerCorrect": false
-            }
-          ]
-        },
-        {
-          "question": "O que é a energia cinética?",
-          "tip": "Energia relacionada ao movimento.",
-          "explanation": "Energia cinética é a energia que um corpo possui devido ao seu movimento.",
-          "difficulty": 1,
-          "answers": [
-            {
-              "answer": "Energia do movimento",
-              "isAnswerCorrect": true
-            },
-            {
-              "answer": "Energia armazenada",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "Energia térmica",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "Energia elétrica",
-              "isAnswerCorrect": false
-            }
-          ]
-        },
-        {
-          "question": "Qual a fórmula da segunda lei de Newton?",
-          "tip": "Relaciona força, massa e aceleração.",
-          "explanation": "F = m × a (força é massa vezes aceleração).",
-          "difficulty": 2,
-          "answers": [
-            {
-              "answer": "F = m × a",
-              "isAnswerCorrect": true
-            },
-            {
-              "answer": "E = m × c²",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "P = m × v",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "V = d / t",
+              "answer": "Ela vai conduzir o carro.",
               "isAnswerCorrect": false
             }
           ]

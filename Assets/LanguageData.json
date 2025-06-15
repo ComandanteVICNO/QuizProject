@@ -5,7 +5,7 @@
       "languageID": "_en",
       "imageFileName": "flag_en.png",
       "menuLanguage": {
-        "gameTitle": "Vicno's Quiz",
+        "gameTitle": "School Quiz",
         "languageMenuTitle": "Language",
         "languageMenuButton": "Apply",
         "mainMenuButton": "Main Menu",
@@ -17,14 +17,14 @@
       }
     },
     {
-      "name": "portugês",
+      "name": "português",
       "languageID": "_pt",
       "imageFileName": "flag_pt.png",
       "menuLanguage": {
-        "gameTitle": "Quiz do Vicno",
+        "gameTitle": "Questionário Escolar",
         "languageMenuTitle": "Idioma",
         "languageMenuButton": "Aplicar",
-        "mainMenuButton": "Menu Incial",
+        "mainMenuButton": "Menu Inicial",
         "tipButton": "Dica?",
         "submitButton": "Submeter Resultado",
         "scoreTitle": "Pontuação",
@@ -33,19 +33,19 @@
       }
     },
     {
-      "name": "germanico?",
+      "name": "deutsch",
       "languageID": "_de",
       "imageFileName": "flag_de.png",
       "menuLanguage": {
-        "gameTitle": "não sei german",
-        "languageMenuTitle": "não sei german",
-        "languageMenuButton": "nsei german",
-        "mainMenuButton": "não sei german",
-        "tipButton": "não sei german",
-        "submitButton": "Submeter Resultado",
-        "scoreTitle": "Pontuação",
-        "playerInputFieldText": "Inserir Nome",
-        "addPlayerButton": "Adicionar Jogador"
+        "gameTitle": "Schulquiz",
+        "languageMenuTitle": "Sprache",
+        "languageMenuButton": "Anwenden",
+        "mainMenuButton": "Hauptmenü",
+        "tipButton": "Tipp benötigt?",
+        "submitButton": "Antworten absenden",
+        "scoreTitle": "Punktzahl",
+        "playerInputFieldText": "Name eingeben",
+        "addPlayerButton": "Spieler hinzufügen"
       }
     }
   ]

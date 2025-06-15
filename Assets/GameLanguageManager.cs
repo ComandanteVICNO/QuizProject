@@ -37,6 +37,7 @@ public class GameLanguageManager : MonoBehaviour
     [SerializeField] private TMP_Text scoreMenuTitle;
     [SerializeField] private TMP_Text scoreInputFieldPlaseHolderText;
     [SerializeField] private TMP_Text addPlayerButton;
+    [SerializeField] private TMP_Text scoreMenuMainMenuButtonTitle;
     private void Start()
     {
         
@@ -55,6 +56,8 @@ public class GameLanguageManager : MonoBehaviour
         scoreMenuTitle.text = gameLanguageData.languageList[currentLanguageIndex].menuLanguage.scoreTitle;
         scoreInputFieldPlaseHolderText.text = gameLanguageData.languageList[currentLanguageIndex].menuLanguage.playerInputFieldText;
         addPlayerButton.text = gameLanguageData.languageList[currentLanguageIndex].menuLanguage.addPlayerButton;
+        scoreMenuMainMenuButtonTitle.text = gameLanguageData.languageList[currentLanguageIndex].menuLanguage.mainMenuButton;
+        
         ApplyLanguageToGame();
     }
 
@@ -133,8 +136,8 @@ public class GameLanguageManager : MonoBehaviour
     
     public void ApplyLanguageToGame()
     {
-        
         dataLoader.LoadLanguageData(gameLanguageData.languageList[currentLanguageIndex].languageID);
+        
         
         currentLanguage = gameLanguageData.languageList[currentLanguageIndex];
         
@@ -151,6 +154,7 @@ public class GameLanguageManager : MonoBehaviour
         scoreMenuTitle.text = languageList[currentLanguageIndex].menuLanguage.scoreTitle;
         scoreInputFieldPlaseHolderText.text = languageList[currentLanguageIndex].menuLanguage.playerInputFieldText;
         addPlayerButton.text = languageList[currentLanguageIndex].menuLanguage.addPlayerButton;
+        scoreMenuMainMenuButtonTitle.text = gameLanguageData.languageList[currentLanguageIndex].menuLanguage.mainMenuButton;
         
         dataLoader.LoadQuizData();
         

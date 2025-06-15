@@ -1,123 +1,18 @@
 {
-  "gameTitle": "Vicno's Cooles Quiz",
+  "gameTitle": "Vicnos Cooles Quiz",
   "categories": [
     {
       "categoryID": 0,
-      "name": "Mathematik",
-      "categoryColorR": 210,
-      "categoryColorG": 35,
-      "categoryColorB": 7,
-      "questions": [
-        {
-          "question": "Was ist das Ergebnis von 7 + 5?",
-          "tip": "Addiere die beiden Zahlen.",
-          "explanation": "7 + 5 = 12, da wir die Werte direkt addieren.",
-          "difficulty": 1,
-          "answers": [
-            {
-              "answer": "12",
-              "isAnswerCorrect": true
-            },
-            {
-              "answer": "10",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "14",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "13",
-              "isAnswerCorrect": false
-            }
-          ]
-        },
-        {
-          "question": "Was ist der Wert von x in der Gleichung 2x - 4 = 10?",
-          "tip": "Isoliere x in der Gleichung.",
-          "explanation": "2x - 4 = 10 → 2x = 14 → x = 7.",
-          "difficulty": 2,
-          "answers": [
-            {
-              "answer": "7",
-              "isAnswerCorrect": true
-            },
-            {
-              "answer": "6",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "8",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "5",
-              "isAnswerCorrect": false
-            }
-          ]
-        },
-        {
-          "question": "Wie lautet die nächste Zahl in der Folge: 2, 4, 8, 16, ...?",
-          "tip": "Jede Zahl ist das Doppelte der vorherigen.",
-          "explanation": "Jeder Term in der Folge wird mit 2 multipliziert: 16 x 2 = 32.",
-          "difficulty": 1,
-          "answers": [
-            {
-              "answer": "32",
-              "isAnswerCorrect": true
-            },
-            {
-              "answer": "24",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "30",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "20",
-              "isAnswerCorrect": false
-            }
-          ]
-        },
-        {
-          "question": "Wie lautet die Formel für die Fläche eines Kreises?",
-          "tip": "Verwende den Radius (r) und die Konstante π.",
-          "explanation": "Die Fläche eines Kreises wird durch A = πr² gegeben.",
-          "difficulty": 2,
-          "answers": [
-            {
-              "answer": "A = πr²",
-              "isAnswerCorrect": true
-            },
-            {
-              "answer": "A = 2πr",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "A = πd",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "A = r²",
-              "isAnswerCorrect": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "categoryID": 1,
       "name": "Naturwissenschaften",
-      "categoryColorR": 7,
-      "categoryColorG": 219,
-      "categoryColorB": 60,
+      "categoryColorR": 181,
+      "categoryColorG": 238,
+      "categoryColorB": 185,
       "questions": [
         {
-          "question": "Wie heißt der Prozess, durch den Pflanzen ihre Nahrung produzieren?",
-          "tip": "Denke an Sonnenlicht und Chlorophyll.",
+          "question": "Wie nennt man den Prozess, durch den Pflanzen ihre Nahrung produzieren?",
+          "tip": "Denk an Sonnenlicht und Chlorophyll.",
           "explanation": "Pflanzen nutzen die Photosynthese, um Sonnenlicht in Energie umzuwandeln.",
-          "difficulty": 1,
+          "difficulty": 0,
           "answers": [
             {
               "answer": "Photosynthese",
@@ -132,16 +27,160 @@
               "isAnswerCorrect": false
             },
             {
-              "answer": "Fermentation",
+              "answer": "Gärung",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Welcher Planet ist als der Rote Planet bekannt?",
+          "tip": "Er ist nach dem römischen Kriegsgott benannt.",
+          "explanation": "Mars wird oft der Rote Planet genannt aufgrund seines rötlichen Aussehens.",
+          "difficulty": 0,
+          "answers": [
+            {
+              "answer": "Mars",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Venus",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Jupiter",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Saturn",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Wofür steht H2O im Allgemeinen?",
+          "tip": "Du trinkst es jeden Tag.",
+          "explanation": "H2O ist die chemische Formel für Wasser.",
+          "difficulty": 0,
+          "answers": [
+            {
+              "answer": "Wasser",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Wasserstoffperoxid",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Sauerstoff",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Salz",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Was ist das größte Organ des menschlichen Körpers?",
+          "tip": "Es ist das Organ, das den Körper vor der Umwelt schützt.",
+          "explanation": "Die Haut ist das größte Organ des menschlichen Körpers.",
+          "difficulty": 0,
+          "answers": [
+            {
+              "answer": "Haut",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Leber",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Herz",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Lunge",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Welches Gas brauchen Menschen zum Atmen?",
+          "tip": "Es ist notwendig für die Verbrennung von Nährstoffen.",
+          "explanation": "Sauerstoff ist das wichtige Gas für die menschliche Atmung.",
+          "difficulty": 1,
+          "answers": [
+            {
+              "answer": "Sauerstoff",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Stickstoff",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Wasserstoff",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Kohlendioxid",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Welche Organelle wird als Kraftwerk der Zelle bezeichnet?",
+          "tip": "Dort wird Energie produziert.",
+          "explanation": "Das Mitochondrium erzeugt Energie für die Zelle.",
+          "difficulty": 1,
+          "answers": [
+            {
+              "answer": "Mitochondrium",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Zellkern",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Ribosom",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Chloroplast",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Welche Art von Energie ist in Nahrung gespeichert?",
+          "tip": "Es ist eine Form der potentiellen Energie.",
+          "explanation": "Chemische Energie ist in den Bindungen der Nahrungsmoleküle gespeichert.",
+          "difficulty": 1,
+          "answers": [
+            {
+              "answer": "Chemische Energie",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Kinetische Energie",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Wärmeenergie",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Kernenergie",
               "isAnswerCorrect": false
             }
           ]
         },
         {
           "question": "Welches chemische Element wird durch das Symbol 'O' dargestellt?",
-          "tip": "Es ist essentiell für die menschliche Atmung.",
-          "explanation": "Das Symbol 'O' steht für Sauerstoff, der für viele Lebewesen fundamental ist.",
-          "difficulty": 2,
+          "tip": "Es ist wichtig für die menschliche Atmung.",
+          "explanation": "Das Symbol 'O' steht für Sauerstoff, grundlegend für viele Lebewesen.",
+          "difficulty": 1,
           "answers": [
             {
               "answer": "Sauerstoff",
@@ -162,49 +201,298 @@
           ]
         },
         {
-          "question": "Was ist das größte Organ des menschlichen Körpers?",
-          "tip": "Es ist das Organ, das den Körper vor der äußeren Umgebung schützt.",
-          "explanation": "Die Haut ist das größte Organ des menschlichen Körpers.",
-          "difficulty": 1,
+          "question": "Welches Phänomen bewirkt, dass sich Licht biegt, wenn es durch Wasser geht?",
+          "tip": "Es passiert, wenn Licht die Geschwindigkeit zwischen Medien ändert.",
+          "explanation": "Brechung ist die Beugung des Lichts beim Übergang zwischen Stoffen unterschiedlicher Dichte.",
+          "difficulty": 2,
           "answers": [
             {
-              "answer": "Haut",
+              "answer": "Brechung",
               "isAnswerCorrect": true
             },
             {
-              "answer": "Leber",
+              "answer": "Reflexion",
               "isAnswerCorrect": false
             },
             {
-              "answer": "Herz",
+              "answer": "Beugung",
               "isAnswerCorrect": false
             },
             {
-              "answer": "Lungen",
+              "answer": "Absorption",
               "isAnswerCorrect": false
             }
           ]
         },
         {
-          "question": "Welches der folgenden Gase ist für die menschliche Atmung unerlässlich?",
-          "tip": "Es ist notwendig für die Verbrennung von Nährstoffen im Körper.",
-          "explanation": "Sauerstoff ist das essentielle Gas für die menschliche Atmung.",
-          "difficulty": 1,
+          "question": "Welcher Wissenschaftler entwickelte die allgemeine Relativitätstheorie?",
+          "tip": "Denk an E = mc².",
+          "explanation": "Albert Einstein stellte 1915 die allgemeine Relativitätstheorie auf.",
+          "difficulty": 2,
           "answers": [
             {
-              "answer": "Sauerstoff",
+              "answer": "Albert Einstein",
               "isAnswerCorrect": true
             },
             {
-              "answer": "Stickstoff",
+              "answer": "Isaac Newton",
               "isAnswerCorrect": false
             },
             {
-              "answer": "Kohlendioxid",
+              "answer": "Galileo Galilei",
               "isAnswerCorrect": false
             },
             {
-              "answer": "Wasserstoff",
+              "answer": "Marie Curie",
+              "isAnswerCorrect": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "categoryID": 1,
+      "name": "Mathematik",
+      "categoryColorR": 255,
+      "categoryColorG": 223,
+      "categoryColorB": 186,
+      "questions": [
+        {
+          "question": "Was ist 7 + 5?",
+          "tip": "Addiere die beiden Zahlen.",
+          "explanation": "7 + 5 ergibt 12.",
+          "difficulty": 0,
+          "answers": [
+            {
+              "answer": "12",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "11",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "13",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "10",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Was sind 15% von 200?",
+          "tip": "Multipliziere 200 mit 0,15.",
+          "explanation": "15% von 200 sind 30.",
+          "difficulty": 0,
+          "answers": [
+            {
+              "answer": "30",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "20",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "25",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "35",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Wie nennt man ein Polygon mit acht Seiten?",
+          "tip": "Oft bei Stopp-Schildern zu sehen.",
+          "explanation": "Ein Polygon mit acht Seiten nennt man Oktogon.",
+          "difficulty": 0,
+          "answers": [
+            {
+              "answer": "Oktogon",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Hexagon",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Pentagon",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Heptagon",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Was ist die Quadratwurzel von 144?",
+          "tip": "12 × 12 ergibt diese Zahl.",
+          "explanation": "Die Quadratwurzel von 144 ist 12.",
+          "difficulty": 1,
+          "answers": [
+            {
+              "answer": "12",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "11",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "10",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "14",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Was ist der Wert von π (Pi) ungefähr?",
+          "tip": "Es beginnt mit 3,14.",
+          "explanation": "Pi ist ungefähr 3,14.",
+          "difficulty": 1,
+          "answers": [
+            {
+              "answer": "3,14",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "2,72",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "1,61",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "4,13",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Was ist die nächste Primzahl nach 7?",
+          "tip": "Nur durch 1 und sich selbst teilbar.",
+          "explanation": "Die nächste Primzahl nach 7 ist 11.",
+          "difficulty": 1,
+          "answers": [
+            {
+              "answer": "11",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "9",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "10",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "13",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Was ist die Ableitung von x²?",
+          "tip": "Verwende die Potenzregel.",
+          "explanation": "Die Ableitung von x² ist 2x.",
+          "difficulty": 2,
+          "answers": [
+            {
+              "answer": "2x",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "x",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "x²",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "1",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Löse nach x auf: 2x + 3 = 11",
+          "tip": "Subtrahiere dann dividiere.",
+          "explanation": "2x = 8, also x = 4.",
+          "difficulty": 1,
+          "answers": [
+            {
+              "answer": "4",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "3",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "5",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "6",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Was ist 9 × 6?",
+          "tip": "Multipliziere die beiden Zahlen.",
+          "explanation": "9 × 6 ergibt 54.",
+          "difficulty": 0,
+          "answers": [
+            {
+              "answer": "54",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "45",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "63",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "48",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Was ist die Steigung der Geraden y = 3x + 5?",
+          "tip": "y = mx + b — die Steigung ist m.",
+          "explanation": "Die Steigung (m) ist 3.",
+          "difficulty": 2,
+          "answers": [
+            {
+              "answer": "3",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "5",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "8",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "-3",
               "isAnswerCorrect": false
             }
           ]
@@ -213,418 +501,247 @@
     },
     {
       "categoryID": 2,
-      "name": "Geschichte",
-      "categoryColorR": 219,
-      "categoryColorG": 194,
-      "categoryColorB": 7,
+      "name": "Deutsch",
+      "categoryColorR": 204,
+      "categoryColorG": 229,
+      "categoryColorB": 255,
       "questions": [
         {
-          "question": "Wer war der erste Präsident Brasiliens?",
-          "tip": "Er regierte direkt nach der Ausrufung der Republik.",
-          "explanation": "Deodoro da Fonseca war der erste Präsident Brasiliens.",
-          "difficulty": 1,
+          "question": "Welches Wort ist ein Synonym für 'glücklich'?",
+          "tip": "Denk an Gefühle, die mit Freude zu tun haben.",
+          "explanation": "'Fröhlich' ist ein Synonym für 'glücklich'.",
+          "difficulty": 0,
           "answers": [
             {
-              "answer": "Deodoro da Fonseca",
+              "answer": "Fröhlich",
               "isAnswerCorrect": true
             },
             {
-              "answer": "Getúlio Vargas",
+              "answer": "Wütend",
               "isAnswerCorrect": false
             },
             {
-              "answer": "Juscelino Kubitschek",
+              "answer": "Traurig",
               "isAnswerCorrect": false
             },
             {
-              "answer": "Dom Pedro II",
+              "answer": "Müde",
               "isAnswerCorrect": false
             }
           ]
         },
         {
-          "question": "In welchem Jahr fand die Ausrufung der Republik in Brasilien statt?",
-          "tip": "Es war am Ende des 19. Jahrhunderts.",
-          "explanation": "Die Ausrufung der Republik erfolgte 1889.",
+          "question": "Was ist die korrekte Vergangenheitsform von 'laufen'?",
+          "tip": "Unregelmäßiges Verb!",
+          "explanation": "Die Vergangenheitsform von 'laufen' ist 'lief'.",
+          "difficulty": 0,
+          "answers": [
+            {
+              "answer": "Lief",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Laufte",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Laufend",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Laufen",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Welches Wort ist ein Antonym von 'kalt'?",
+          "tip": "Denk an die entgegengesetzte Temperatur.",
+          "explanation": "'Heiß' ist das Antonym von 'kalt'.",
+          "difficulty": 0,
+          "answers": [
+            {
+              "answer": "Heiß",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Warm",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Kühl",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Frisch",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Welches der folgenden ist ein Substantiv?",
+          "tip": "Bezieht sich auf eine Person, einen Ort oder eine Sache.",
+          "explanation": "'Tisch' ist ein Substantiv.",
+          "difficulty": 0,
+          "answers": [
+            {
+              "answer": "Tisch",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Laufen",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Blau",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Schnell",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Welcher Satz verwendet ein Semikolon korrekt?",
+          "tip": "Verbindet zwei verwandte Hauptsätze.",
+          "explanation": "Semikola trennen Hauptsätze ohne Konjunktionen.",
+          "difficulty": 1,
+          "answers": [
+            {
+              "answer": "Ich wollte gehen; es war zu spät.",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Ich wollte gehen, es war zu spät.",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Ich wollte; gehen es war zu spät.",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Ich wollte gehen: es war zu spät.",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Welches Stilmittel wird in 'Der Wind flüsterte durch die Bäume' verwendet?",
+          "tip": "Nicht-menschliche Dinge mit menschlichen Eigenschaften.",
+          "explanation": "Das ist eine Personifikation.",
+          "difficulty": 1,
+          "answers": [
+            {
+              "answer": "Personifikation",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Vergleich",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Alliteration",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Metapher",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Was ist in 'Sie gab ihm ein Geschenk' das Akkusativobjekt?",
+          "tip": "Was wurde gegeben?",
+          "explanation": "'Ein Geschenk' ist das Akkusativobjekt.",
+          "difficulty": 1,
+          "answers": [
+            {
+              "answer": "Ein Geschenk",
+              "isAnswerCorrect": true
+            },
+            {
+              "answer": "Sie",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Ihm",
+              "isAnswerCorrect": false
+            },
+            {
+              "answer": "Gab",
+              "isAnswerCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "Welches ist ein Beispiel für Alliteration?",
+          "tip": "Gleicher Anfangslaut.",
+          "explanation": "'Sieben Schwäne schwammen' ist Alliteration.",
           "difficulty": 2,
           "answers": [
             {
-              "answer": "1889",
+              "answer": "Sieben Schwäne schwammen",
               "isAnswerCorrect": true
             },
             {
-              "answer": "1822",
+              "answer": "Die Zeit vergeht",
               "isAnswerCorrect": false
             },
             {
-              "answer": "1500",
+              "answer": "Er ist mutig wie ein Löwe",
               "isAnswerCorrect": false
             },
             {
-              "answer": "1930",
+              "answer": "Der Wind flüsterte",
               "isAnswerCorrect": false
             }
           ]
         },
         {
-          "question": "Wie hieß der Kaiser Brasiliens während der Unabhängigkeit?",
-          "tip": "Er erklärte die Unabhängigkeit an den Ufern des Flusses Ipiranga.",
-          "explanation": "Dom Pedro I war der Kaiser, der Brasiliens Unabhängigkeit proklamierte.",
+          "question": "Was ist die Komparativform von 'gut'?",
+          "tip": "Unregelmäßiges Adjektiv.",
+          "explanation": "Die Komparativform von 'gut' ist 'besser'.",
           "difficulty": 1,
           "answers": [
             {
-              "answer": "Dom Pedro I",
+              "answer": "Besser",
               "isAnswerCorrect": true
             },
             {
-              "answer": "Dom Pedro II",
+              "answer": "Mehr gut",
               "isAnswerCorrect": false
             },
             {
-              "answer": "Dom João VI",
+              "answer": "Guter",
               "isAnswerCorrect": false
             },
             {
-              "answer": "Getúlio Vargas",
+              "answer": "Am besten",
               "isAnswerCorrect": false
             }
           ]
         },
         {
-          "question": "Welcher Krieg wurde als 'Krieg der Lumpen' bekannt?",
-          "tip": "Es war ein Aufstand im Süden Brasiliens im 19. Jahrhundert.",
-          "explanation": "Der Krieg der Lumpen war ein Aufstand in Rio Grande do Sul zwischen 1835 und 1845.",
-          "difficulty": 3,
-          "answers": [
-            {
-              "answer": "Farroupilha-Revolution",
-              "isAnswerCorrect": true
-            },
-            {
-              "answer": "Paraguayischer Krieg",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "Revolution von 1930",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "Emboabas-Krieg",
-              "isAnswerCorrect": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "categoryID": 3,
-      "name": "Portugiesisch",
-      "categoryColorR": 7,
-      "categoryColorG": 194,
-      "categoryColorB": 219,
-      "questions": [
-        {
-          "question": "Wie lautet der Plural von 'cão' (Hund)?",
-          "tip": "Plural von Haustieren.",
-          "explanation": "Der korrekte Plural ist 'cães' (Hunde).",
-          "difficulty": 1,
-          "answers": [
-            {
-              "answer": "Cães",
-              "isAnswerCorrect": true
-            },
-            {
-              "answer": "Cãos",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "Cãoses",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "Cãeses",
-              "isAnswerCorrect": false
-            }
-          ]
-        },
-        {
-          "question": "Was ist die Funktion des Kommas in dem Satz: 'Fui ao mercado, comprei frutas e voltei para casa' (Ich ging zum Markt, kaufte Früchte und kehrte nach Hause zurück)?",
-          "tip": "Trennung von Handlungen.",
-          "explanation": "Das Komma trennt unabhängige Satzteile im Satz.",
+          "question": "Welcher Satz steht im Passiv?",
+          "tip": "Das Subjekt empfängt die Handlung.",
+          "explanation": "Das Auto wurde von ihr gefahren. -> Passiv.",
           "difficulty": 2,
           "answers": [
             {
-              "answer": "Satzteile trennen",
+              "answer": "Das Auto wurde von ihr gefahren.",
               "isAnswerCorrect": true
             },
             {
-              "answer": "Frage anzeigen",
+              "answer": "Sie fuhr das Auto.",
               "isAnswerCorrect": false
             },
             {
-              "answer": "Wörter verbinden",
+              "answer": "Sie fährt das Auto.",
               "isAnswerCorrect": false
             },
             {
-              "answer": "Betonung geben",
-              "isAnswerCorrect": false
-            }
-          ]
-        },
-        {
-          "question": "Welcher der Sätze ist korrekt?",
-          "tip": "Achte auf die Rechtschreibung.",
-          "explanation": "'Ele vai à escola' (Er geht zur Schule) ist korrekt, weil es den Gravis-Akzent (Crase) verwendet.",
-          "difficulty": 1,
-          "answers": [
-            {
-              "answer": "Ele vai à escola",
-              "isAnswerCorrect": true
-            },
-            {
-              "answer": "Ele vai a escola",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "Ele vai há escola",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "Ele vai á escola",
-              "isAnswerCorrect": false
-            }
-          ]
-        },
-        {
-          "question": "Was ist ein transitives Verb?",
-          "tip": "Verb, das eine Ergänzung benötigt.",
-          "explanation": "Transitive Verben benötigen ein Objekt, um ihre Bedeutung zu vervollständigen.",
-          "difficulty": 2,
-          "answers": [
-            {
-              "answer": "Verb, das eine Ergänzung benötigt",
-              "isAnswerCorrect": true
-            },
-            {
-              "answer": "Verb, das sich nicht ändert",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "Verb, das einen Zustand anzeigt",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "Verb, das nur Vergangenheit hat",
-              "isAnswerCorrect": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "categoryID": 4,
-      "name": "Geographie",
-      "categoryColorR": 219,
-      "categoryColorG": 106,
-      "categoryColorB": 7,
-      "questions": [
-        {
-          "question": "Was ist der größte Kontinent der Welt?",
-          "tip": "Er liegt in Asien.",
-          "explanation": "Asien ist der größte Kontinent in territorialer Ausdehnung.",
-          "difficulty": 1,
-          "answers": [
-            {
-              "answer": "Asien",
-              "isAnswerCorrect": true
-            },
-            {
-              "answer": "Afrika",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "Europa",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "Amerika",
-              "isAnswerCorrect": false
-            }
-          ]
-        },
-        {
-          "question": "Wie heißt der Ozean, der Brasiliens Ostküste umspült?",
-          "tip": "Es ist der größte Ozean des Planeten.",
-          "explanation": "Der Atlantische Ozean umspült Brasiliens Ostküste.",
-          "difficulty": 2,
-          "answers": [
-            {
-              "answer": "Atlantischer Ozean",
-              "isAnswerCorrect": true
-            },
-            {
-              "answer": "Pazifischer Ozean",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "Indischer Ozean",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "Arktischer Ozean",
-              "isAnswerCorrect": false
-            }
-          ]
-        },
-        {
-          "question": "Was ist das bevölkerungsreichste Land der Welt?",
-          "tip": "Es liegt in Asien und hat die größte Bevölkerung.",
-          "explanation": "China ist das bevölkerungsreichste Land der Welt.",
-          "difficulty": 1,
-          "answers": [
-            {
-              "answer": "China",
-              "isAnswerCorrect": true
-            },
-            {
-              "answer": "Indien",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "Vereinigte Staaten",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "Russland",
-              "isAnswerCorrect": false
-            }
-          ]
-        },
-        {
-          "question": "Was ist die Hauptstadt Brasiliens?",
-          "tip": "Geplante Stadt, die in den 1960er Jahren erbaut wurde.",
-          "explanation": "Brasília ist die Hauptstadt Brasiliens.",
-          "difficulty": 1,
-          "answers": [
-            {
-              "answer": "Brasília",
-              "isAnswerCorrect": true
-            },
-            {
-              "answer": "Rio de Janeiro",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "São Paulo",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "Salvador",
-              "isAnswerCorrect": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "categoryID": 5,
-      "name": "Physik",
-      "categoryColorR": 7,
-      "categoryColorG": 7,
-      "categoryColorB": 219,
-      "questions": [
-        {
-          "question": "Was ist die Maßeinheit für Kraft im Internationalen System?",
-          "tip": "Sie wurde nach einem berühmten Physiker benannt.",
-          "explanation": "Die Einheit der Kraft ist das Newton (N), zu Ehren von Isaac Newton.",
-          "difficulty": 1,
-          "answers": [
-            {
-              "answer": "Newton (N)",
-              "isAnswerCorrect": true
-            },
-            {
-              "answer": "Joule (J)",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "Watt (W)",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "Pascal (Pa)",
-              "isAnswerCorrect": false
-            }
-          ]
-        },
-        {
-          "question": "Was passiert mit der Geschwindigkeit eines Objekts im freien Fall ohne Luftwiderstand?",
-          "tip": "Denke an konstante Beschleunigung.",
-          "explanation": "Die Geschwindigkeit nimmt konstant zu aufgrund der Gravitationsbeschleunigung.",
-          "difficulty": 2,
-          "answers": [
-            {
-              "answer": "Nimmt durch Schwerkraft zu",
-              "isAnswerCorrect": true
-            },
-            {
-              "answer": "Nimmt ab bis zum Stillstand",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "Bleibt konstant",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "Variiert zufällig",
-              "isAnswerCorrect": false
-            }
-          ]
-        },
-        {
-          "question": "Was ist kinetische Energie?",
-          "tip": "Energie, die mit Bewegung zusammenhängt.",
-          "explanation": "Kinetische Energie ist die Energie, die ein Körper aufgrund seiner Bewegung besitzt.",
-          "difficulty": 1,
-          "answers": [
-            {
-              "answer": "Energie der Bewegung",
-              "isAnswerCorrect": true
-            },
-            {
-              "answer": "Gespeicherte Energie",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "Wärmeenergie",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "Elektrische Energie",
-              "isAnswerCorrect": false
-            }
-          ]
-        },
-        {
-          "question": "Wie lautet die Formel für Newtons zweites Gesetz?",
-          "tip": "Es verbindet Kraft, Masse und Beschleunigung.",
-          "explanation": "F = m × a (Kraft gleich Masse mal Beschleunigung).",
-          "difficulty": 2,
-          "answers": [
-            {
-              "answer": "F = m × a",
-              "isAnswerCorrect": true
-            },
-            {
-              "answer": "E = m × c²",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "P = m × v",
-              "isAnswerCorrect": false
-            },
-            {
-              "answer": "V = d / t",
+              "answer": "Sie wird das Auto fahren.",
               "isAnswerCorrect": false
             }
           ]

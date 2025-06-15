@@ -23,7 +23,7 @@ private void OnEnable()
 
 private void OnDisable()
 {
-    FindAnyObjectByType<DataLoader>().onDataReloaded -= InstantiateButtons;
+        FindAnyObjectByType<DataLoader>().onDataReloaded -= InstantiateButtons;
 }
 
 private void Start()
@@ -35,10 +35,12 @@ private void Start()
     void InstantiateButtons()
     {
         jsonData = dataLoader.quizData;
+        Debug.Log("Loaded Data");
 
         foreach (GameObject button in instantiatedButtons)
         {
             Destroy(button);
+            Debug.Log("Destoryed Button");
         }
         instantiatedButtons.Clear();
         

@@ -151,7 +151,7 @@ MonoBehaviour:
   button: {fileID: 7409051561151740525}
   buttonImage: {fileID: 5696040914402082100}
   buttonTextField: {fileID: 0}
-  buttonTextMargin: {x: 23, y: 0, z: 23, w: 0}
+  buttonTextMargin: {x: 23, y: 20, z: 23, w: 20}
 --- !u!114 &312128331860722268
 MonoBehaviour:
   m_ObjectHideFlags: 0

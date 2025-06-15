@@ -30,6 +30,7 @@ public class ScoreMenuHandler : MonoBehaviour
     {
         scoreboardTextHolder.gameObject.SetActive(false);
         playerName.gameObject.SetActive(true);
+        addPlayerButton.gameObject.SetActive(true);
         
         maxScore = scoreTracker.maxScore;
         achievedScore = scoreTracker.currentScore;
@@ -64,11 +65,34 @@ public class ScoreMenuHandler : MonoBehaviour
         scoreboardTextHolder.gameObject.SetActive(true);
         List<ScoreBoardDataStructure.PlayerScore> scoreList =
             new List<ScoreBoardDataStructure.PlayerScore>(scoreboardHolder.scoreBoardData.scoreBoard);
+        
+        List<ScoreBoardDataStructure.PlayerScore> top10List =
+            new List<ScoreBoardDataStructure.PlayerScore>();
 
-        foreach (ScoreBoardDataStructure.PlayerScore player in scoreboardHolder.scoreBoardData.scoreBoard)
+        
+        for (int i = 0; i < 15; i++)
+        {
+            ScoreBoardDataStructure.PlayerScore highestScore = new ScoreBoardDataStructure.PlayerScore();
+            foreach (ScoreBoardDataStructure.PlayerScore score in scoreList)
+            {
+                if (score.score >= highestScore.score)
+                {
+                    highestScore = score;
+                }
+            }
+
+            if (highestScore.score != 0)
+            {
+                top10List.Add(highestScore);
+                
+            }
+            scoreList.Remove(highestScore);
+        }
+        
+        foreach (ScoreBoardDataStructure.PlayerScore player in top10List)
         {
             playerText.text += player.playerName + "\n";
-            scoreText.text += player.score + "\n";
+            scoreText.text += player.score + "%" + "\n";
         }
         
     }
@@ -81,7 +105,7 @@ public class ScoreMenuHandler : MonoBehaviour
         while (currentScore < achievedScore)
         {
             currentScore++;
-            scoreCounterTitle.text = scoreCounterTitle.text = currentScore + " | " + maxScore + " - " + scorePercentage + "%"; 
+            scoreCounterTitle.text = scoreCounterTitle.text = currentScore + " | " + maxScore + " - " + (int)scorePercentage + "%"; 
             yield return new WaitForSeconds(0.5f);
         }
     }
