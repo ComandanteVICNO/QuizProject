@@ -38,6 +38,4 @@ public class JsonDataStructure : MonoBehaviour
         public string gameTitle;
         public List<Category> categories;
     }
-
-
 }

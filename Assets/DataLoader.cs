@@ -183,7 +183,7 @@ public class DataLoader : MonoBehaviour
             quizData = JsonUtility.FromJson<JsonDataStructure.JsonData>(json);
         }
     }
-    void LoadScoreboardData()
+    public void LoadScoreboardData()
     {
         string scoreboardPath = Path.Combine(dataFolderPath, scoreBoardDataFileName);
         if (File.Exists(scoreboardPath))

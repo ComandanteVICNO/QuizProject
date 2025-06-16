@@ -31,6 +31,9 @@ public class ScoreMenuHandler : MonoBehaviour
         scoreboardTextHolder.gameObject.SetActive(false);
         playerName.gameObject.SetActive(true);
         addPlayerButton.gameObject.SetActive(true);
+
+        DataLoader dataloader = FindAnyObjectByType<DataLoader>();
+        dataloader.LoadScoreboardData();
         
         maxScore = scoreTracker.maxScore;
         achievedScore = scoreTracker.currentScore;
