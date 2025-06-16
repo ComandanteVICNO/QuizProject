@@ -4014,8 +4014,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 57.3
-  m_fontSizeBase: 57.3
+  m_fontSize: 31.4
+  m_fontSizeBase: 31.4
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -4637,7 +4637,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 2100000, guid: ed4bad2f4cd699443b46cf14f8009a5a, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -5376,6 +5376,7 @@ GameObject:
   - component: {fileID: 1941064282}
   - component: {fileID: 1941064281}
   - component: {fileID: 1941064280}
+  - component: {fileID: 1941064283}
   m_Layer: 5
   m_Name: LanguageMenu Button
   m_TagString: Untagged
@@ -5398,10 +5399,10 @@ RectTransform:
   - {fileID: 1975815667}
   m_Father: {fileID: 1252212261}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.5}
-  m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 115.081055, y: 109}
-  m_SizeDelta: {x: 116.1619, y: 30}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 112, y: 92.02002}
+  m_SizeDelta: {x: 114.52, y: 114.300476}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1941064280
 MonoBehaviour:
@@ -5491,8 +5492,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: -745835875, guid: 5aea12a7445417a4282d2bab3f4ed824, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -5509,6 +5510,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1941064278}
   m_CullTransparentMesh: 1
+--- !u!114 &1941064283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1941064278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc1eff5f8701a2948bf61babc775abc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverMaterial: {fileID: 2100000, guid: ed4bad2f4cd699443b46cf14f8009a5a, type: 2}
+  button: {fileID: 1941064280}
+  buttonImage: {fileID: 1941064281}
+  buttonTextField: {fileID: 1975815668}
+  buttonTextMargin: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &1964602097
 GameObject:
   m_ObjectHideFlags: 0
@@ -5737,7 +5755,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1975815667
 RectTransform:
   m_ObjectHideFlags: 0
